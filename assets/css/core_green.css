@@ -167,7 +167,8 @@
 }
 
 .navbar-fade.navbar-light .nav-item.is-tab, .navbar-minimal.navbar-light .nav-item.is-tab {
-  color: #000
+  color: #2d435e;
+  font-weight:bolder;
 }
 
 .navbar-fade.navbar-light .nav-item.is-tab.is-active, .navbar-minimal.navbar-light .nav-item.is-tab.is-active {
@@ -244,7 +245,8 @@
 }
 
 .nav .nav-item.is-menu-mobile {
-  display: none
+  display: none;
+  color: white !important;
 }
 
 .nav .nav-toggle {
@@ -253,12 +255,12 @@
 }
 
 .nav .nav-toggle span {
-  background-color: #00b289;
+  background-color: #2d435e;
   width: 20px !important
 }
 
 .nav .nav-toggle.is-active span {
-  background-color: #00b289
+  background-color: #2d435e
 }
 
 .nav .nav-toggle span:nth-child(1) {
@@ -491,7 +493,7 @@
 }
 
 .section.section-primary {
-  background-color: #00b289
+  background-color: #2d435e
 }
 
 .section.section-secondary {
@@ -757,8 +759,19 @@
   background-size: cover !important
 }
 
+.background_img{
+  background-image:url(images/background/alex-holyoake-222954-unsplash.jpg) !important;
+  background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
 .hero.is-theme-primary {
-  background-color: #00b289
+  /* background-color: #00b289; */
+  background-image:url(images/background/elijah-o-donell-715864-unsplash.jpg);
+  background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 }
 
 .hero.is-theme-primary .title {
@@ -1118,7 +1131,7 @@ footer.footer-light-left .level-item .icon {
 }
 
 footer.footer-light-left .level-item .icon :hover {
-  color: #00b289
+  color: #0067f5
 }
 
 footer.footer-light-left .moto {
@@ -2222,7 +2235,7 @@ footer.footer-light-medium .small-footer-logo {
 }
 
 .button.rounded {
-  border-radius: 500px
+  border-radius: 500px !important
 }
 
 .button.raised:hover {
@@ -2239,12 +2252,12 @@ footer.footer-light-medium .small-footer-logo {
 }
 
 .button.btn-outlined {
-  background: transparent
+  background: #26384f;
 }
 
 .button.btn-outlined.light-btn {
-  border-color: #fff;
-  color: #fff
+  border-color: #26384f;
+  color: #ffffff
 }
 
 .button.btn-outlined.light-btn:hover {
@@ -2356,8 +2369,8 @@ footer.footer-light-medium .small-footer-logo {
 
 .button.primary-btn {
   outline: none;
-  border-color: #00b289;
-  background-color: #00b289;
+  border-color: #0067f5;
+  background-color: #0067f5;
   color: #fff;
   transition: all 0.5s
 }
@@ -2985,7 +2998,7 @@ footer.footer-light-medium .small-footer-logo {
 }
 
 .flex-card.testimonial-card .testimonial-title {
-  color: #00b289;
+  color: #306bac;
   font-weight: 500;
   padding: 5px 0
 }
@@ -5409,8 +5422,21 @@ input.input {
   padding-bottom: 3px;
   border-color: #ccc;
   font-size: 0.9rem;
-  height: 2rem
+  height: 3.6rem
 }
+
+.signup-block .control button {
+    position: absolute;
+    top: 4px;
+    right: 5px;
+    height: 42px;
+    width: 120px;
+    font-weight: 600;
+  }
+
+  light-text {
+    color: #fff !important;
+  }
 
 input.input.is-small {
   padding-bottom: 2px;
@@ -5752,19 +5778,19 @@ textarea.textarea.is-button+.textarea-button button {
 }
 
 .control-material.is-primary input.material-input:focus~label, .control-material.is-primary input:valid~label, .control-material.is-primary textarea:focus~label {
-  color: #00b289
+  color: #0067f5
 }
 
 .control-material.is-primary .bar:before, .control-material.is-primary .bar:after {
-  background: #00b289
+  background: #0067f5
 }
 
 .control-material.is-primary.has-icon input:focus~i {
-  color: #00b289 !important
+  color: #0067f5 !important
 }
 
 .control-material.is-secondary input.material-input:focus~label, .control-material.is-secondary input:valid~label, .control-material.is-secondary textarea:focus~label {
-  color: #00b289
+  color: #0067f5
 }
 
 .control-material.is-secondary .bar:before, .control-material.is-secondary .bar:after {
@@ -10342,7 +10368,7 @@ figure.team-slanted:hover .member-position {
 .clean-section-title {
   font-family: 'Nexa Bold', sans-serif;
   font-size: 2.6rem;
-  color: #444F60
+  color: #003459
 }
 
 .clean-section-title:before {
@@ -10502,7 +10528,7 @@ figure.team-slanted:hover .member-position {
 }
 
 .primary-text {
-  color: #00b289 !important
+  color: #2d435e !important
 }
 
 .secondary-text {
@@ -10959,7 +10985,7 @@ figure.team-slanted:hover .member-position {
 }
 
 .mt-60 {
-  margin-top: 60px
+  margin-top: 10px
 }
 
 .mt-70 {
@@ -11227,7 +11253,7 @@ figure.team-slanted:hover .member-position {
   }
   .nav-item.is-menu-mobile {
     display: block !important;
-    color: #7a7a7a !important
+    /* color: #7a7a7a !important */
   }
   .level-left.level-social {
     display: flex;
@@ -11374,7 +11400,7 @@ section:focus {
 #backtotop.visible a:hover {
   outline: none;
   opacity: 0.9;
-  background: #00b289
+  background: #0067f5
 }
 
 #backtotop a {

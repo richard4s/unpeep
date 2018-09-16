@@ -1639,8 +1639,8 @@ a.box:active {
 .content h4,
 .content h5,
 .content h6 {
-    color: #363636;
-    font-weight: 400;
+    color: #fff;
+    font-weight: bolder;
     line-height: 1.125
 }
 
@@ -4070,7 +4070,7 @@ a.box:active {
 }
 
 .nav-item img {
-    max-height: 2.5rem
+    max-height: 5.5rem
 }
 
 .nav-item .button+.button {
@@ -4105,7 +4105,8 @@ a.nav-item:hover {
 
 .nav-item a.is-active,
 a.nav-item.is-active {
-    color: #363636
+    color: #363636;
+    margin-left: 18px;
 }
 
 .nav-item a.is-tab,
@@ -4151,7 +4152,7 @@ a.nav-item.is-tab.is-active {
     .nav-menu .nav-item {
         border-top: 1px solid rgba(219, 219, 219, .5);
         padding: .75rem;
-        background-color: #d5dae1;
+        background-color: #2d435e;
     }
     .nav-menu.is-active {
         display: block
@@ -4184,7 +4185,7 @@ a.nav-item.is-tab.is-active {
     display: flex;
     -webkit-box-pack: start;
     -ms-flex-pack: start;
-    justify-content: flex-start;
+    justify-content: flex-end;
     overflow: hidden;
     overflow-x: auto;
     white-space: nowrap
@@ -4232,7 +4233,7 @@ a.nav-item.is-tab.is-active {
     display: -ms-flexbox;
     display: flex;
     min-height: 3.5rem;
-    position: relative;
+    /* position: relative; */
     text-align: center;
     z-index: 2
 }

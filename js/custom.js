@@ -2,23 +2,23 @@
 
 
 
-$(function() {
-
-    "use strict";
-
-    var sections = $('section'),
-        documentEl = $(document),
-        progressBar = $(".progress-bar"),
-        colors = $('.color-option .colors li'),
-        dl = $('.color-option .dl li'),
-        // Typed Plugin
-        typed = new Typed('.type', {
-            strings: ["BRANDS.", "CLIENTS.", "EACH OTHER."],
-            /* Here Type Your Title */
-            typeSpeed: 100,
-            loop: true,
-            backDelay: 1200,
-            backSpeed: 20
+// $(function() {
+//
+//     "use strict";
+//
+//     var sections = $('section'),
+//         documentEl = $(document),
+//         progressBar = $(".progress-bar"),
+//         colors = $('.color-option .colors li'),
+//         dl = $('.color-option .dl li'),
+//
+//         typed = new Typed('.type', {
+//             strings: ["BRANDS.", "CLIENTS.", "EACH OTHER."],
+//
+//             typeSpeed: 100,
+//             loop: true,
+//             backDelay: 1200,
+//             backSpeed: 20
         });
 
     // Active Class
