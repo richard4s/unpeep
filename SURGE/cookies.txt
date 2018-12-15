@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+app.ergo7.net	TRUE	/surge/	FALSE	1999999999	woocommerce_items_in_cart	1
+app.ergo7.net	TRUE	/surge/	FALSE	1999999999	woocommerce_cart_hash	2d88205a573c3adf34089da3a534ef1a
+app.ergo7.net	TRUE	/surge/	FALSE	1999999999	wp_woocommerce_session_a625ecaea83918325005b27721988b23	120a55810992222625cf94aa9b2afc1c%7C%7C1544633820%7C%7C1544630220%7C%7Cccde8dcf44bbc6f1e827bccf244fa0c3
+
