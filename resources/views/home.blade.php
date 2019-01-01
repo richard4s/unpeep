@@ -41,7 +41,7 @@
         window._wpemojiSettings = {
             "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/",
             "ext": ".png",
-            "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/",
+            "svgUrl": "https:\/\/s.w.ogit addrg\/images\/core\/emoji\/2.4\/svg\/",
             "svgExt": ".svg",
             "source": {
                 "concatemoji": "https:\/\/app.ergo7.net\/surge\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.5"
