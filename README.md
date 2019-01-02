@@ -1,4 +1,4 @@
-[logo]: https://imgur.com/4s9rlF9 "Unpeep Logo"
+[logo]: https://github.com/richard4s/unpeep/blob/landing-page/public/assets/images/unpeep-clear-logo.png "Unpeep Logo"
 #Landing page for unpeep
 ###Just like the branch says, this is actually the landing page for unpeep 😊.
 ###I wouldn't advice you to look for much here considering how you got here anyway because this is not the master branch and would soon be forgotten.
