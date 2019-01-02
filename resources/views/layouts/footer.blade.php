@@ -604,6 +604,17 @@
 <script type='text/javascript' src='{{ URL::asset('assets/wp-content/plugins/js_composer/assets/lib/vc_accordion/vc-accordion.min4245.js') }}'></script>
 <script type='text/javascript' src='{{ URL::asset('assets/wp-content/plugins/js_composer/assets/lib/vc-tta-autoplay/vc-tta-autoplay.min4245.js') }}'></script>
 <script type='text/javascript' src='{{ URL::asset('assets/wp-content/plugins/js_composer/assets/lib/vc_tabs/vc-tabs.min4245.js') }}'></script>
+<!-- Hotjar Tracking Code for www.unpeep.com -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1143508,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
 <svg style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <defs>
         <symbol id="icon-behance" viewBox="0 0 37 32">
