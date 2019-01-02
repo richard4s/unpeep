@@ -148,7 +148,7 @@
                                 <div class="wpb_column vc_column_container vc_col-sm-4">
                                     <div class="vc_column-inner vc_custom_1522940708787">
                                         <div class="wpb_wrapper">
-                                            <h2 style="color: #ffffff;text-align: center" class="vc_custom_heading faq-title-contact">media@surgefestival.com</h2></div>
+                                            <h2 style="color: #ffffff;text-align: center" class="vc_custom_heading faq-title-contact">unpeepofficial@gmail.com</h2></div>
                                     </div>
                                 </div>
                             </div>
@@ -158,7 +158,7 @@
                                     <div class="wpb_column vc_column_container vc_col-sm-4 vc_col-has-fill">
                                         <div class="vc_column-inner vc_custom_1520835672519">
                                             <div class="wpb_wrapper">
-                                                <h2 style="color: #e02444;text-align: center" class="vc_custom_heading">DO YOU HAVE A QUESTION ABOUT SURGE FEST?</h2>
+                                                <h2 style="color: #e02444;text-align: center" class="vc_custom_heading">DO YOU HAVE A QUESTION ABOUT UNPEEP?</h2>
                                                 <div class="wpb_text_column wpb_content_element ">
                                                     <div class="wpb_wrapper">
                                                         <p>Please Contact Nerve Center at Entry Gate.if need any assistance, seek out the medical tent, or look for a nearby security officer or festival staff member.</p>
