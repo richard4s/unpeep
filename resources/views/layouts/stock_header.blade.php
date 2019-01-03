@@ -15,9 +15,13 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Unpeep') }} &#8211; Just Re:imagine Creativity</title>
+
     <link rel="shortcut icon" href="{{ URL::asset('assets/images/favicon.png') }}">
     <link rel="apple-touch-icon" href="{{ URL::asset('assets/images/logox.png') }}" />
+    <title>{{ config('app.name', 'Unpeep Stock') }} &#8211; Unpeep</title>
+
+
+    <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
 
     <meta name="author" content="The Unpeep Team" />
     <meta name="description" content="Job board platform for photographers, Share creative designs and Express yourself!" />
@@ -25,13 +29,11 @@
                                     stock, photos, gallery, studio, job platform, jobs, gigs, blockchain startup, ethereum blockchain" />
     <meta http-equiv = "Content-Type" content = "text/html; charset = UTF-8" />
 
-
-    <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
-
     <link rel='stylesheet' id='contact-form-7-css' href='{{ URL::asset('assets/wp-content/plugins/contact-form-7/includes/css/stylesaead.css') }}' type='text/css' media='all' />
     <link rel='stylesheet' id='woocommerce-layout-css' href='{{ URL::asset('assets/wp-content/plugins/woocommerce/assets/css/woocommerce-layout4c8b.css') }}' type='text/css' media='all' />
     <link rel='stylesheet' id='woocommerce-smallscreen-css' href='{{ URL::asset('assets/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen4c8b.css') }}' type='text/css' media='only screen and (max-width: 768px)' />
     <link rel='stylesheet' id='woocommerce-general-css' href='{{ URL::asset('assets/wp-content/plugins/woocommerce/assets/css/woocommerce4c8b.css') }}' type='text/css' media='all' />
+
     <style id='woocommerce-inline-inline-css' type='text/css'>
         .woocommerce form .form-row .required {
             visibility: visible;
@@ -465,176 +467,356 @@
     </style>
     <script type='text/javascript' src='{{ URL::asset('assets/wp-includes/js/jquery/jqueryb8ff.js') }}'></script>
     <script type='text/javascript' src='{{ URL::asset('assets/wp-includes/js/jquery/jquery-migrate.min330a.js') }}'></script>
+
     <script type='text/javascript' src='{{ URL::asset('assets/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min4c8b.js') }}'></script>
     <script type='text/javascript' src='{{ URL::asset('assets/wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart4245.js') }}'></script>
-    <noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+
     <style type="text/css" data-type="vc_shortcodes-custom-css">
-        .vc_custom_1525105880420 {
-            background-image: url({{ URL::asset('assets/wp-content/uploads/2018/04/main-hero50fa.jpg') }}) !important;
+        .vc_custom_1522989260498 {
+            background-image: url({{ URL::asset('assets/wp-content/uploads/2018/04/timeline-bg99d0.jpg') }}) !important;
             background-position: center !important;
             background-repeat: no-repeat !important;
             background-size: cover !important;
         }
 
-
-
-        .vc_custom_1524621452525 {
-            padding-top: 70px !important;
-            padding-right: 50px !important;
-            padding-bottom: 70px !important;
-            padding-left: 50px !important;
-            background-color: #06172b !important;
-        }
-
-        .vc_custom_1524621480522 {
-            padding-top: 70px !important;
-            padding-right: 50px !important;
-            padding-bottom: 70px !important;
-            padding-left: 50px !important;
-            background-color: #0a203a !important;
-        }
-
-
-
-        .vc_custom_1525106105730 {
-            background-image: url(https://app.ergo7.net/surge/wp-content/uploads/2018/04/timeline-bg.jpg?id=2210) !important;
+        .vc_custom_1520833451315 {
+            background-image: url({{ URL::asset('assets/wp-content/uploads/2018/03/clients.jpg') }}) !important;
             background-position: center !important;
             background-repeat: no-repeat !important;
             background-size: cover !important;
         }
 
-        .vc_custom_1526302651494 {
-            padding-top: 70px !important;
-            background-color: #071325 !important;
+        .vc_custom_1521177159621 {
+            background-color: #050f1f !important;
         }
 
-        .vc_custom_1524028006641 {
-            padding-top: 70px !important;
-            padding-bottom: 70px !important;
-            background-image: url(http://app.ergo7.net/surge/wp-content/uploads/2018/01/stage.jpg?id=280) !important;
-        }
-
-        .vc_custom_1524027927567 {
-            padding-top: 70px !important;
-        }
-
-        .vc_custom_1524027908988 {
-            margin-top: 35px !important;
-        }
-
-        .vc_custom_1517126846120 {
+        .vc_custom_1521177172928 {
+            background-image: url({{ URL::asset('assets/wp-content/uploads/2018/01/lights-bg.jpg') }}) !important;
             background-position: center !important;
             background-repeat: no-repeat !important;
             background-size: cover !important;
         }
 
-        .vc_custom_1524124825438 {
-            margin-bottom: 30px !important;
+        .vc_custom_1521470543439 {
+            background-position: center !important;
+            background-repeat: no-repeat !important;
+            background-size: cover !important;
         }
 
-        .vc_custom_1523637628494 {
-            margin-top: 70px !important;
-            margin-bottom: 70px !important;
-            background-color: rgba(8, 28, 49, 0.53) !important;
-            *background-color: rgb(8, 28, 49) !important;
+        .vc_custom_1526520643672 {
+            background-image: url({{ URL::asset('assets/wp-content/uploads/2018/04/background-2.jpg') }}) !important;
+            background-position: center !important;
+            background-repeat: no-repeat !important;
+            background-size: cover !important;
         }
 
-        .vc_custom_1523638960396 {
-            margin-top: 70px !important;
-            margin-right: 30px !important;
-            margin-bottom: 30px !important;
-            margin-left: 30px !important;
-        }
-
-        .vc_custom_1524027223690 {
-            margin-bottom: 30px !important;
-        }
-
-        .vc_custom_1524031260599 {
-            padding-top: 35px !important;
-        }
-
-        .vc_custom_1524027206762 {
+        .vc_custom_1516612901194 {
+            margin-top: 40px !important;
             margin-bottom: 40px !important;
         }
 
-        .vc_custom_1521223290604 {
-            margin-top: 20px !important;
+        .vc_custom_1520849852367 {
+            margin-top: 50px !important;
+            border-bottom-width: 50px !important;
         }
 
-        .vc_custom_1521223290604 {
-            margin-top: 20px !important;
+        .vc_custom_1520849859700 {
+            margin-top: 50px !important;
+            margin-bottom: 50px !important;
+            padding-bottom: 30px !important;
         }
 
-        .vc_custom_1521223290604 {
-            margin-top: 20px !important;
+        .vc_custom_1520705840728 {
+            padding-bottom: 30px !important;
+            background-color: #1f2034 !important;
         }
 
-        .vc_custom_1522940717735 {
-            margin-top: 0px !important;
-            padding-top: 0px !important;
+        .vc_custom_1520705848219 {
+            padding-bottom: 30px !important;
+            background-color: #1f2034 !important;
         }
 
-        .vc_custom_1522940713357 {
-            margin-top: 0px !important;
-            padding-top: 0px !important;
+        .vc_custom_1520705855048 {
+            padding-bottom: 30px !important;
+            background-color: #1f2034 !important;
         }
 
-        .vc_custom_1522940708787 {
-            margin-top: 0px !important;
-            padding-top: 0px !important;
+        .vc_custom_1520706051846 {
+            padding-bottom: 30px !important;
+            background-color: #1f2034 !important;
         }
 
-        .vc_custom_1520835672519 {
-            padding-top: 70px !important;
+        .vc_custom_1520705863552 {
+            padding-bottom: 30px !important;
+            background-color: #1f2034 !important;
+        }
+
+        .vc_custom_1520705870025 {
+            padding-bottom: 30px !important;
+            background-color: #1f2034 !important;
+        }
+
+        .vc_custom_1520706058644 {
+            padding-bottom: 30px !important;
+            background-color: #1f2034 !important;
+        }
+
+        .vc_custom_1520705885841 {
+            padding-bottom: 30px !important;
+            background-color: #1f2034 !important;
+        }
+
+        .vc_custom_1518589233076 {
+            background-color: #1f2034 !important;
+        }
+
+        .vc_custom_1516612934750 {
+            margin-top: 40px !important;
+            margin-bottom: 40px !important;
+        }
+
+        .vc_custom_1520849366982 {
+            margin-bottom: 50px !important;
+        }
+
+        .vc_custom_1516632657056 {
+            margin-top: 40px !important;
+            margin-bottom: 40px !important;
+        }
+
+        .vc_custom_1520849355201 {
+            margin-bottom: 50px !important;
+        }
+
+        .vc_custom_1520267713771 {
+            margin-bottom: 25px !important;
+            background-color: rgba(8, 11, 25, 0.72) !important;
+            *background-color: rgb(8, 11, 25) !important;
+        }
+
+        .vc_custom_1520267732522 {
+            margin-bottom: 25px !important;
+            background-color: rgba(8, 11, 25, 0.72) !important;
+            *background-color: rgb(8, 11, 25) !important;
+        }
+
+        .vc_custom_1520267755029 {
+            margin-bottom: 25px !important;
+            background-color: rgba(8, 11, 25, 0.72) !important;
+            *background-color: rgb(8, 11, 25) !important;
+        }
+
+        .vc_custom_1520267763067 {
+            margin-bottom: 25px !important;
+            background-color: rgba(8, 11, 25, 0.72) !important;
+            *background-color: rgb(8, 11, 25) !important;
+        }
+
+        .vc_custom_1520267803192 {
+            margin-top: 25px !important;
+            margin-bottom: 25px !important;
+            background-color: rgba(8, 11, 25, 0.72) !important;
+            *background-color: rgb(8, 11, 25) !important;
+        }
+
+        .vc_custom_1520267809454 {
+            margin-top: 25px !important;
+            margin-bottom: 25px !important;
+            background-color: rgba(8, 11, 25, 0.72) !important;
+            *background-color: rgb(8, 11, 25) !important;
+        }
+
+        .vc_custom_1520267816792 {
+            margin-top: 25px !important;
+            margin-bottom: 25px !important;
+            background-color: rgba(8, 11, 25, 0.72) !important;
+            *background-color: rgb(8, 11, 25) !important;
+        }
+
+        .vc_custom_1520267867194 {
+            margin-top: 25px !important;
+            margin-bottom: 25px !important;
+            background-color: rgba(8, 11, 25, 0.72) !important;
+            *background-color: rgb(8, 11, 25) !important;
+        }
+
+        .vc_custom_1520267827229 {
+            margin-top: 25px !important;
+            background-color: rgba(8, 11, 25, 0.72) !important;
+            *background-color: rgb(8, 11, 25) !important;
+        }
+
+        .vc_custom_1520267832882 {
+            margin-top: 25px !important;
+            background-color: rgba(8, 11, 25, 0.72) !important;
+            *background-color: rgb(8, 11, 25) !important;
+        }
+
+        .vc_custom_1520267842518 {
+            margin-top: 25px !important;
+            background-color: rgba(8, 11, 25, 0.72) !important;
+            *background-color: rgb(8, 11, 25) !important;
+        }
+
+        .vc_custom_1520267848486 {
+            margin-top: 25px !important;
+            background-color: rgba(8, 11, 25, 0.72) !important;
+            *background-color: rgb(8, 11, 25) !important;
+        }
+
+        .vc_custom_1516613105221 {
+            margin-top: 40px !important;
+            margin-bottom: 40px !important;
+        }
+
+        .vc_custom_1520849320655 {
+            margin-bottom: 50px !important;
+        }
+
+        .vc_custom_1520780118275 {
+            margin-top: 40px !important;
+            margin-bottom: 40px !important;
+        }
+
+        .vc_custom_1520780811756 {
+            margin-bottom: 50px !important;
+        }
+
+        .vc_custom_1520775611139 {
+            background-color: #181929 !important;
+            border-radius: 5px !important;
+        }
+
+        .vc_custom_1520775624098 {
+            background-color: #1e1f33 !important;
+            border-radius: 5px !important;
+        }
+
+        .vc_custom_1520775632023 {
+            background-color: #24253d !important;
+            border-radius: 5px !important;
+        }
+
+        .vc_custom_1516613593326 {
+            margin-top: 40px !important;
+            margin-bottom: 40px !important;
+        }
+
+        .vc_custom_1516613116869 {
+            margin-top: 40px !important;
+            margin-bottom: 40px !important;
+        }
+
+        .vc_custom_1520678443792 {
+            margin-bottom: 50px !important;
+        }
+
+        .vc_custom_1520750294825 {
+            margin-bottom: 40px !important;
+        }
+
+        .vc_custom_1518589645085 {
+            padding-top: 100px !important;
             padding-right: 50px !important;
-            padding-bottom: 35px !important;
+            padding-bottom: 65px !important;
             padding-left: 50px !important;
             background-color: #0a203a !important;
         }
 
-        .vc_custom_1520835709287 {
-            padding-top: 70px !important;
+        .vc_custom_1517412359442 {
+            padding-top: 100px !important;
             padding-right: 50px !important;
-            padding-bottom: 35px !important;
+            padding-bottom: 65px !important;
             padding-left: 50px !important;
             background-color: #06172b !important;
         }
 
-        .vc_custom_1520835718559 {
-            padding-top: 70px !important;
+        .vc_custom_1517412328856 {
+            padding-top: 100px !important;
             padding-right: 50px !important;
-            padding-bottom: 35px !important;
+            padding-bottom: 65px !important;
             padding-left: 50px !important;
             background-color: #0a203a !important;
         }
 
-        .vc_custom_1520835731460 {
-            padding-top: 70px !important;
+        .vc_custom_1517026634333 {
+            margin-bottom: 20px !important;
+        }
+
+        .vc_custom_1517026645337 {
+            margin-bottom: 20px !important;
+        }
+
+        .vc_custom_1517024085178 {
+            margin-bottom: 20px !important;
+        }
+
+        .vc_custom_1517412366160 {
+            padding-top: 100px !important;
             padding-right: 50px !important;
-            padding-bottom: 35px !important;
+            padding-bottom: 65px !important;
             padding-left: 50px !important;
             background-color: #06172b !important;
         }
 
-        .vc_custom_1520835742299 {
-            padding-top: 70px !important;
+        .vc_custom_1517412335977 {
+            padding-top: 100px !important;
             padding-right: 50px !important;
-            padding-bottom: 35px !important;
+            padding-bottom: 65px !important;
             padding-left: 50px !important;
             background-color: #0a203a !important;
         }
 
-        .vc_custom_1520835753874 {
-            padding-top: 70px !important;
+        .vc_custom_1517412374001 {
+            padding-top: 100px !important;
             padding-right: 50px !important;
-            padding-bottom: 35px !important;
+            padding-bottom: 65px !important;
             padding-left: 50px !important;
             background-color: #06172b !important;
         }
-    </style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
-</head>
-<body class="home page-template page-template-template-homepage page-template-template-homepage-php page page-id-418 woocommerce-no-js surge-dark woocommerce-active wpb-js-composer js-comp-ver-5.5.2 vc_responsive">
+
+        .vc_custom_1517024091507 {
+            margin-bottom: 20px !important;
+        }
+
+        .vc_custom_1517020861758 {
+            margin-bottom: 20px !important;
+        }
+
+        .vc_custom_1517020886265 {
+            margin-bottom: 20px !important;
+        }
+
+        .vc_custom_1516613504784 {
+            margin-top: 40px !important;
+            margin-bottom: 40px !important;
+        }
+
+        .vc_custom_1520849399849 {
+            margin-bottom: 50px !important;
+        }
+
+        .vc_custom_1516613548706 {
+            margin-top: 40px !important;
+            margin-bottom: 40px !important;
+        }
+
+        .vc_custom_1529374155472 {
+            margin-bottom: 50px !important;
+        }
+
+        .vc_custom_1516613593326 {
+            margin-top: 40px !important;
+            margin-bottom: 40px !important;
+        }
+
+        .vc_custom_1520849031230 {
+            padding-right: 100px !important;
+            padding-left: 100px !important;
+        }
+    </style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript> </head>
+
+<body class="page-template page-template-template-homepage page-template-template-homepage-php page page-id-50 woocommerce-no-js surge-dark woocommerce-active wpb-js-composer js-comp-ver-5.5.2 vc_responsive">
 <!-- PRE LOADER -->
 <div class="preloader">
     <div class="spinner">
@@ -644,38 +826,32 @@
 <div id="page" class="site">
     <header id="masthead" class="site-header">
 
-
-        <div class="classic-menu container home-menu  ">
+        <div class="menu-logo-wrapper ">
             <div class="menu-logo">
                 <a href="{{ __('/') }}" rel="home">
-                    <img src='{{ URL::asset('assets/images/logox.png') }}' alt='logo2'/>               </a>
-            </div>
-            <div class="menu-wrapper">
-                <div class="col-md-1 col-sm-1 hidden-xs">
-                    <div class="mini-cart">
-                        <div class="cart-button" title="View your shopping cart"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span class="mini-cart-icon" data-count="0"></span></a></div>
-                    </div>
-                </div>
-                <nav id="normal-menu">
-                    <div>
-                        <div class="primary-menu">
-                            <ul id="primary-menu" class="menu">
-                                <li id="menu-item-3828" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-3828"><a href="{{ __('/') }}">HOME</a>
-
-                                </li>
-                                <li id="menu-item-3827" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3827"><a href="{{ route('about') }}">ABOUT</a>
-
-                                </li>
-                                <li id="menu-item-3867" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3867"><a href="{{ route('stock') }}">UNPEEP STOCK</a></li>
-                                <li id="menu-item-3867" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3867"><a href="{{ route('book-photographer') }}">BOOK NOW</a></li>
-                                <li id="menu-item-3868" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3868"><a href="{{ route('contact') }}">CONTACT</a></li>
-                                <li id="menu-item-3875" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-3875"><a href="#">BLOG</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
+                    <img src='{{ URL::asset('assets/images/unpeep-stock.png') }}' alt='Unpeep Stock'/>               </a>
             </div>
         </div>
+        <div class="menu-toogle-wrapper ">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav class="navigation-wrapper full-page-menu">
+            <div id="menuToggle">
+                <div class="primary-menu">
+                    <ul id="primary-menu" class="menu">
+                        <li id="menu-item-3828" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-3828"><a href="#">HOME</a></li>
+                        <li id="menu-item-3876" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3876"><a href="{{ route('about') }}">ABOUT</a></li>
+                        <li id="menu-item-3874" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3874"><a href="{{ route('stock') }}">UNPEEP STOCK</a></li>
+                        <li id="menu-item-3871" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3871"><a href="#">BOOK NOW</a></li>
+                        <li id="menu-item-3872" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3872"><a href="{{ route('contact') }}">CONTACT</a></li>
+                        <li id="menu-item-3875" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-3875"><a href="#">BLOG</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
         <!--  END MENU  -->
+
     </header>
     <!-- #masthead -->
