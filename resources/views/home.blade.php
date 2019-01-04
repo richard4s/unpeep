@@ -90,7 +90,7 @@
                                                         <div class="wpb_wrapper">
                                                             <a href="{{ route('photographer') }}" class="action-btn wpcf7-submit">CREATE </a>
                                                         </div>
-
+{{--stuff--}}
                                                     </div>
                                                 </div>
                                             </div>
