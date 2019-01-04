@@ -6,7 +6,7 @@
         <div id="equalizer" class="equalizer"></div>
     </div>
     <div class="audiojs " classname="audiojs" id="audiojs_wrapper0">
-        <div class="time"><a href="{{ route('book-photographer') }}" ><em class="played">
+        <div class="time"><a href="{{ route('photographer') }}" ><em class="played">
                     Are You A Photographer</em><strong class="duration">?</strong></a>
         </div>
     </div>

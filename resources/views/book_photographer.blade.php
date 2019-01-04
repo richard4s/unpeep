@@ -33,14 +33,15 @@
 </head>
 <body>
 
-<a href="{{ __('/') }}"> <img width="200" src='{{ URL::asset('assets/images/unpeep-clear-logo.png') }}' alt='Unpeep'/></a>
+<br>
+<a href="{{ __('/') }}">
+    <img width="200" src='{{ URL::asset('assets/images/unpeep-plain-logo.png') }}' alt='Unpeep'/>
+</a>
 
 <div class="main">
 
-
-
     <div class="container">
-        <form method="POST" id="signup-form" class="signup-form" action="#">
+        <form method="POST" id="signup-form" class="signup-form" action="#{{ route('book-photographer') }}">
             <div>
                 <h3></h3>
                 <fieldset>
