@@ -114,12 +114,12 @@ body {
   font-weight: bold;
   font-family: 'Montserrat';
   margin: 0px;
-  background: #00a7f6;
+  background: #0a203a;
   position: relative;
   padding: 0px; }
 
 .main {
-  padding: 410px 0;
+  padding: 130px 0;
   position: relative;
   z-index: 99; }
 
@@ -139,7 +139,7 @@ body {
   -ms-border-radius: 60px; }
 
 .finished {
-  background: #0184d2; }
+  background: #0a203a; }
   .finished .container {
     display: none; }
   .finished h1 {
@@ -277,7 +277,7 @@ fieldset {
 
 .zmdi-chevron-right {
   color: #fff;
-  background: #00a7f6; }
+  background: #cb3742; }
 
 .zmdi-chevron-left {
   color: #999;
@@ -294,7 +294,7 @@ fieldset {
   margin-top: -29px; }
 
 .footer {
-  background: #0184d2;
+  /*background: #0184d2;*/
   position: absolute;
   width: 100%;
   z-index: 9;

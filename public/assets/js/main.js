@@ -70,7 +70,7 @@
         },
         onFinished: function (event, currentIndex)
         {
-            form.parent().parent().append('<h1>Hi , Hoang !</h1>').parent().addClass('finished');
+            form.parent().parent().append('<h1>Thank You!</h1><h1>We have sent you a confirmation email. <br><a href="/">Back to Unpeep</a> </h1>').parent().addClass('finished');
             return true;
         },
         onStepChanged : function (event, currentIndex, priorIndex) {

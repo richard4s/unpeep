@@ -6,7 +6,7 @@
         <div id="equalizer" class="equalizer"></div>
     </div>
     <div class="audiojs " classname="audiojs" id="audiojs_wrapper0">
-        <div class="time"><a href="#" ><em class="played">
+        <div class="time"><a href="{{ route('book-photographer') }}" ><em class="played">
                     Are You A Photographer</em><strong class="duration">?</strong></a>
         </div>
     </div>
@@ -75,12 +75,6 @@
 <a class="scrollup"><i class="fa fa-angle-up"></i></a>
 <!-- #colophon -->
 </div>
-<!-- #page -->
-<script type="text/javascript">
-    var c = document.body.className;
-    c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
-    document.body.className = c;
-</script>
 <link rel='stylesheet' id='prettyphoto-css' href='{{ URL::asset('assets/wp-content/plugins/js_composer/assets/lib/prettyphoto/css/prettyPhoto.min4245.css') }}' type='text/css' media='all' />
 <link rel='stylesheet' id='vc_pageable_owl-carousel-css-css' href='{{ URL::asset('assets/wp-content/plugins/js_composer/assets/lib/owl-carousel2-dist/assets/owl.min4245.css') }}' type='text/css' media='all' />
 <link rel='stylesheet' id='animate-css-css' href='{{ URL::asset('assets/wp-content/plugins/js_composer/assets/lib/bower/animate-css/animate.min4245.css') }}' type='text/css' media='all' />

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class PeeperController extends Controller
 {
@@ -36,6 +37,24 @@ class PeeperController extends Controller
     public function store(Request $request)
     {
         //
+        if($request->all()) {
+            User::create([
+               'first_name' => $request['first_name'],
+               'last_name' => $request['last_name'],
+               'email' => $request['email'],
+                'number' => $request['number'],
+                'address' => $request['address'],
+                'city' => $request['city'],
+                'skillset' => $request['skillset'],
+                'instagram_username' => $request['link'],
+                'gender' => $request['gender'],
+                'password' => Hash::make($request['password']),
+            ]);
+        }
+
+        //Send confirmation email here
+
+        return redirect()->with('success', 'We have sent you a confirmation email'); //route('home');
     }
 
     /**

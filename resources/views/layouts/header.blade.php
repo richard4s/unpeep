@@ -651,11 +651,6 @@
                     <img src='{{ URL::asset('assets/images/logox.png') }}' alt='logo2'/>               </a>
             </div>
             <div class="menu-wrapper">
-                <div class="col-md-1 col-sm-1 hidden-xs">
-                    <div class="mini-cart">
-                        <div class="cart-button" title="View your shopping cart"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span class="mini-cart-icon" data-count="0"></span></a></div>
-                    </div>
-                </div>
                 <nav id="normal-menu">
                     <div>
                         <div class="primary-menu">

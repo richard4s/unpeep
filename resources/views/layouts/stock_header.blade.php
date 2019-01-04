@@ -844,7 +844,7 @@
                         <li id="menu-item-3828" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-3828"><a href="#">HOME</a></li>
                         <li id="menu-item-3876" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3876"><a href="{{ route('about') }}">ABOUT</a></li>
                         <li id="menu-item-3874" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3874"><a href="{{ route('stock') }}">UNPEEP STOCK</a></li>
-                        <li id="menu-item-3871" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3871"><a href="#">BOOK NOW</a></li>
+                        <li id="menu-item-3871" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3871"><a href="{{ route('book-photographer') }}">BOOK NOW</a></li>
                         <li id="menu-item-3872" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3872"><a href="{{ route('contact') }}">CONTACT</a></li>
                         <li id="menu-item-3875" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-3875"><a href="#">BLOG</a></li>
                     </ul>
