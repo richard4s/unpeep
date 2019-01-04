@@ -80,17 +80,15 @@
                                     <div class="wpb_column vc_column_container vc_col-sm-6 vc_col-has-fill">
                                         <div class="vc_column-inner vc_custom_1524621452525">
                                             <div class="wpb_wrapper">
-                                                <h2 style="color: #e02444;text-align: center" class="vc_custom_heading">I AM A CREATOR</br>Photographer|Videographer</h2>
+                                                <h2 style="color: #e02444;text-align: center" class="vc_custom_heading">I AM A CREATOR</h2>
                                                 <div class="wpb_text_column wpb_content_element  vc_custom_1524660155646">
                                                     <div class="wpb_wrapper">
                                                         <ul>
-                                                            <li>Blankets and pillows</li>
-                                                            <li>Metal framed backpacks</li>
-                                                            <li>Two factory-sealed drinks</li>
-                                                            <li>Empty container packs</li>
-                                                            <li>Binoculars and lens</li>
-                                                            <li>Cameras without a detachable lens</li>
-
+                                                            <li>Photographer</li>
+                                                            <li>Videographer</li>
+                                                            <li>Model</li>
+                                                            <li>Stylist</li>
+                                                            
                                                         </ul>
 
 
@@ -102,16 +100,14 @@
                                     <div class="wpb_column vc_column_container vc_col-sm-6 vc_col-has-fill">
                                         <div class="vc_column-inner vc_custom_1524621480522">
                                             <div class="wpb_wrapper">
-                                                <h2 style="color: #cb2342;text-align: center" class="vc_custom_heading vc_custom_1521133261358">I AM A COMPANY</br>Brand|Agency</h2>
+                                                <h2 style="color: #cb2342;text-align: center" class="vc_custom_heading vc_custom_1521133261358">I AM A COMPANY</br>Brand</h2>
                                                 <div class="wpb_text_column wpb_content_element  vc_custom_1524660164310">
                                                     <div class="wpb_wrapper">
                                                         <ul>
-                                                            <li>Aerosol Paints</li>
-                                                            <li>Video recording equipment</li>
-                                                            <li>Play equipment</li>
-                                                            <li>Flying equipments</li>
-                                                            <li>Drugs of any kind</li>
-                                                            <li>Framed box</li>
+                                                            <li>Brand</li>
+                                                            <li>Agency</li>
+                                                            <li>Event-Planner</li>
+                                                            <li>Individual</li>
                                                         </ul>
 
                                                     </div>
@@ -148,7 +144,7 @@
                                 <div class="wpb_column vc_column_container vc_col-sm-4">
                                     <div class="vc_column-inner vc_custom_1522940708787">
                                         <div class="wpb_wrapper">
-                                            <h2 style="color: #ffffff;text-align: center" class="vc_custom_heading faq-title-contact">unpeepofficial@gmail.com</h2></div>
+                                            <h2 style="color: #ffffff;text-align: center" class="vc_custom_heading faq-title-contact">GET EDUCATEDv>
                                     </div>
                                 </div>
                             </div>
@@ -158,10 +154,10 @@
                                     <div class="wpb_column vc_column_container vc_col-sm-4 vc_col-has-fill">
                                         <div class="vc_column-inner vc_custom_1520835672519">
                                             <div class="wpb_wrapper">
-                                                <h2 style="color: #e02444;text-align: center" class="vc_custom_heading">DO YOU HAVE A QUESTION ABOUT UNPEEP?</h2>
+                                                <h2 style="color: #e02444;text-align: center" class="vc_custom_heading">10 RESOLUTIONS FOR PHOTOGRAPHERS IN 2019</h2>
                                                 <div class="wpb_text_column wpb_content_element ">
                                                     <div class="wpb_wrapper">
-                                                        <p>Please Contact Nerve Center at Entry Gate.if need any assistance, seek out the medical tent, or look for a nearby security officer or festival staff member.</p>
+                                                        <p> I truly can’t believe that the New Year is already upon us. Each year I am shocked by how fast time has flown. I’ve never actually been a huge fan of New Year’s resolutions because I always have a hard time following through with them.</p>
 
                                                     </div>
                                                 </div>
@@ -171,10 +167,10 @@
                                     <div class="wpb_column vc_column_container vc_col-sm-4 vc_col-has-fill">
                                         <div class="vc_column-inner vc_custom_1520835709287">
                                             <div class="wpb_wrapper">
-                                                <h2 style="color: #e02444;text-align: center" class="vc_custom_heading">WHAT KIND OF MEDICAL FACILITY HAVE AT THE FEST?</h2>
+                                                <h2 style="color: #e02444;text-align: center" class="vc_custom_heading">HOW TO CAPTURE LIFESTYLE NEW BORN PHOTOGRAPHY</h2>
                                                 <div class="wpb_text_column wpb_content_element ">
                                                     <div class="wpb_wrapper">
-                                                        <p>We have extensive medical staff onsite. If, at any time during the festival you need any assistance, seek out the medical tent, or look for a nearby security officer or festival staff member.</p>
+                                                        <p>A brand new bundle of joy has made his or her way into your life…and in a big way! You’ve had a baby, and you’re looking to capture on camera their cute baby cheeks and sleeping, smiling faces. </p>
 
                                                     </div>
                                                 </div>
