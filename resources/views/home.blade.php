@@ -144,116 +144,116 @@
                                     <div class="vc_column-inner vc_custom_1522940708787">
                                         <div class="wpb_wrapper">
                                             <h2 style="color: #ffffff;text-align: center" class="vc_custom_heading faq-title-contact">GET EDUCATED</h2></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="vc_row-full-width vc_clearfix"></div>
+                            <section data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" data-vc-parallax="1.5" class="vc_section fs-ask-us vc_section-has-fill vc_general vc_parallax vc_parallax-content-moving">
+                                <div class="vc_row wpb_row vc_row-fluid ask-us-content wpb_animate_when_almost_visible wpb_fadeIn fadeIn vc_row-o-equal-height vc_row-flex">
+                                    <div class="wpb_column vc_column_container vc_col-sm-4 vc_col-has-fill">
+                                        <div class="vc_column-inner vc_custom_1520835672519">
+                                            <div class="wpb_wrapper">
+                                                <h2 style="color: #e02444;text-align: center" class="vc_custom_heading">10 RESOLUTIONS FOR PHOTOGRAPHERS IN 2019</h2>
+                                                <div class="wpb_text_column wpb_content_element ">
+                                                    <div class="wpb_wrapper">
+                                                        <p> I truly can’t believe that the New Year is already upon us. Each year I am shocked by how fast time has flown. I’ve never actually been a huge fan of New Year’s resolutions because I always have a hard time following through with them.</p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wpb_column vc_column_container vc_col-sm-4 vc_col-has-fill">
+                                        <div class="vc_column-inner vc_custom_1520835709287">
+                                            <div class="wpb_wrapper">
+                                                <h2 style="color: #e02444;text-align: center" class="vc_custom_heading">HOW TO CAPTURE LIFESTYLE NEW BORN PHOTOGRAPHY</h2>
+                                                <div class="wpb_text_column wpb_content_element ">
+                                                    <div class="wpb_wrapper">
+                                                        <p>A brand new bundle of joy has made his or her way into your life…and in a big way! You’ve had a baby, and you’re looking to capture on camera their cute baby cheeks and sleeping, smiling faces. </p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wpb_column vc_column_container vc_col-sm-4 vc_col-has-fill">
+                                        <div class="vc_column-inner vc_custom_1520835718559">
+                                            <div class="wpb_wrapper">
+                                                <h2 style="color: #e02444;text-align: center" class="vc_custom_heading">WHY YOU NEED A PROFESSIONAL PHOTOGRAPHER FOR YOUR EVENT.</h2>
+                                                <div class="wpb_text_column wpb_content_element ">
+                                                    <div class="wpb_wrapper">
+                                                        <p>Truth be told the planning an event is enough stress on its own than having a random unprofessional, unvetted and amateur photographer ruin the day for you, can give you a heart attack.<b style="color: #e02444;text-align: center">CONTINUE</b></p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="vc_row-full-width vc_clearfix"></div>
-                                <section data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" data-vc-parallax="1.5" class="vc_section fs-ask-us vc_section-has-fill vc_general vc_parallax vc_parallax-content-moving">
-                                    <div class="vc_row wpb_row vc_row-fluid ask-us-content wpb_animate_when_almost_visible wpb_fadeIn fadeIn vc_row-o-equal-height vc_row-flex">
-                                        <div class="wpb_column vc_column_container vc_col-sm-4 vc_col-has-fill">
-                                            <div class="vc_column-inner vc_custom_1520835672519">
-                                                <div class="wpb_wrapper">
-                                                    <h2 style="color: #e02444;text-align: center" class="vc_custom_heading">10 RESOLUTIONS FOR PHOTOGRAPHERS IN 2019</h2>
-                                                    <div class="wpb_text_column wpb_content_element ">
-                                                        <div class="wpb_wrapper">
-                                                            <p> I truly can’t believe that the New Year is already upon us. Each year I am shocked by how fast time has flown. I’ve never actually been a huge fan of New Year’s resolutions because I always have a hard time following through with them.</p>
 
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="wpb_column vc_column_container vc_col-sm-4 vc_col-has-fill">
-                                            <div class="vc_column-inner vc_custom_1520835709287">
-                                                <div class="wpb_wrapper">
-                                                    <h2 style="color: #e02444;text-align: center" class="vc_custom_heading">HOW TO CAPTURE LIFESTYLE NEW BORN PHOTOGRAPHY</h2>
-                                                    <div class="wpb_text_column wpb_content_element ">
-                                                        <div class="wpb_wrapper">
-                                                            <p>A brand new bundle of joy has made his or her way into your life…and in a big way! You’ve had a baby, and you’re looking to capture on camera their cute baby cheeks and sleeping, smiling faces. </p>
+                            </section>
+                            <div class="vc_row-full-width vc_clearfix"></div>
+                            <section data-vc-full-width="true" data-vc-full-width-init="false" data-vc-parallax="1.5" class="vc_section vc_custom_1517126846120 vc_section-has-fill vc_section-o-content-middle vc_section-flex vc_general vc_parallax vc_parallax-content-moving">
+                                <div class="vc_row wpb_row vc_row-fluid vc_row-o-content-bottom vc_row-flex">
+                                    <div class="wpb_column vc_column_container vc_col-sm-3">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="wpb_single_image wpb_content_element vc_align_center  wpb_animate_when_almost_visible wpb_fadeIn fadeIn">
 
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="wpb_column vc_column_container vc_col-sm-4 vc_col-has-fill">
-                                            <div class="vc_column-inner vc_custom_1520835718559">
-                                                <div class="wpb_wrapper">
-                                                    <h2 style="color: #e02444;text-align: center" class="vc_custom_heading">WHY YOU NEED A PROFESSIONAL PHOTOGRAPHER FOR YOUR EVENT.</h2>
-                                                    <div class="wpb_text_column wpb_content_element ">
-                                                        <div class="wpb_wrapper">
-                                                            <p>Truth be told the planning an event is enough stress on its own than having a random unprofessional, unvetted and amateur photographer ruin the day for you, can give you a heart attack.<b style="color: #e02444;text-align: center">CONTINUE</b></p>
-
-                                                        </div>
-                                                    </div>
+                                                    <figure class="wpb_wrapper vc_figure">
+                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="150" height="150" src="wp-content/uploads/2018/01/sponsors-11-150x150.png" class="vc_single_image-img attachment-thumbnail" alt="" srcset="https://app.ergo7.net/surge/wp-content/uploads/2018/01/sponsors-11-150x150.png 150w, https://app.ergo7.net/surge/wp-content/uploads/2018/01/sponsors-11-300x300.png 300w, https://app.ergo7.net/surge/wp-content/uploads/2018/01/sponsors-11-100x100.png 100w, https://app.ergo7.net/surge/wp-content/uploads/2018/01/sponsors-11.png 350w"
+                                                                                                                       sizes="(max-width: 150px) 100vw, 150px" /></div>
+                                                    </figure>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="wpb_column vc_column_container vc_col-sm-3">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="wpb_single_image wpb_content_element vc_align_center  wpb_animate_when_almost_visible wpb_fadeIn fadeIn">
 
-                                </section>
-                                <div class="vc_row-full-width vc_clearfix"></div>
-                                <section data-vc-full-width="true" data-vc-full-width-init="false" data-vc-parallax="1.5" class="vc_section vc_custom_1517126846120 vc_section-has-fill vc_section-o-content-middle vc_section-flex vc_general vc_parallax vc_parallax-content-moving">
-                                    <div class="vc_row wpb_row vc_row-fluid vc_row-o-content-bottom vc_row-flex">
-                                        <div class="wpb_column vc_column_container vc_col-sm-3">
-                                            <div class="vc_column-inner ">
-                                                <div class="wpb_wrapper">
-                                                    <div class="wpb_single_image wpb_content_element vc_align_center  wpb_animate_when_almost_visible wpb_fadeIn fadeIn">
-
-                                                        <figure class="wpb_wrapper vc_figure">
-                                                            <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="150" height="150" src="wp-content/uploads/2018/01/sponsors-11-150x150.png" class="vc_single_image-img attachment-thumbnail" alt="" srcset="https://app.ergo7.net/surge/wp-content/uploads/2018/01/sponsors-11-150x150.png 150w, https://app.ergo7.net/surge/wp-content/uploads/2018/01/sponsors-11-300x300.png 300w, https://app.ergo7.net/surge/wp-content/uploads/2018/01/sponsors-11-100x100.png 100w, https://app.ergo7.net/surge/wp-content/uploads/2018/01/sponsors-11.png 350w"
-                                                                                                                           sizes="(max-width: 150px) 100vw, 150px" /></div>
-                                                        </figure>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="wpb_column vc_column_container vc_col-sm-3">
-                                            <div class="vc_column-inner ">
-                                                <div class="wpb_wrapper">
-                                                    <div class="wpb_single_image wpb_content_element vc_align_center  wpb_animate_when_almost_visible wpb_fadeIn fadeIn">
-
-                                                        <figure class="wpb_wrapper vc_figure">
-                                                            <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="150" height="150" src="wp-content/uploads/2018/01/sponsors-10-150x150.png" class="vc_single_image-img attachment-thumbnail" alt="" srcset="https://app.ergo7.net/surge/wp-content/uploads/2018/01/sponsors-10-150x150.png 150w, https://app.ergo7.net/surge/wp-content/uploads/2018/01/sponsors-10-300x300.png 300w, https://app.ergo7.net/surge/wp-content/uploads/2018/01/sponsors-10-100x100.png 100w, https://app.ergo7.net/surge/wp-content/uploads/2018/01/sponsors-10.png 350w"
-                                                                                                                           sizes="(max-width: 150px) 100vw, 150px" /></div>
-                                                        </figure>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="wpb_column vc_column_container vc_col-sm-3">
-                                            <div class="vc_column-inner ">
-                                                <div class="wpb_wrapper">
-                                                    <div class="wpb_single_image wpb_content_element vc_align_center  wpb_animate_when_almost_visible wpb_fadeIn fadeIn">
-
-                                                        <figure class="wpb_wrapper vc_figure">
-                                                            <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="150" height="150" src="wp-content/uploads/2018/01/sponsors-5-150x150.png" class="vc_single_image-img attachment-thumbnail" alt="" srcset="https://app.ergo7.net/surge/wp-content/uploads/2018/01/sponsors-5-150x150.png 150w, https://app.ergo7.net/surge/wp-content/uploads/2018/01/sponsors-5-300x300.png 300w, https://app.ergo7.net/surge/wp-content/uploads/2018/01/sponsors-5-100x100.png 100w, https://app.ergo7.net/surge/wp-content/uploads/2018/01/sponsors-5.png 350w"
-                                                                                                                           sizes="(max-width: 150px) 100vw, 150px" /></div>
-                                                        </figure>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="wpb_column vc_column_container vc_col-sm-3">
-                                            <div class="vc_column-inner ">
-                                                <div class="wpb_wrapper">
-                                                    <div class="wpb_single_image wpb_content_element vc_align_center  wpb_animate_when_almost_visible wpb_fadeIn fadeIn">
-
-                                                        <figure class="wpb_wrapper vc_figure">
-                                                            <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="150" height="150" src="wp-content/uploads/2018/01/sponsors-2-150x150.png" class="vc_single_image-img attachment-thumbnail" alt="" srcset="https://app.ergo7.net/surge/wp-content/uploads/2018/01/sponsors-2-150x150.png 150w, https://app.ergo7.net/surge/wp-content/uploads/2018/01/sponsors-2-300x300.png 300w, https://app.ergo7.net/surge/wp-content/uploads/2018/01/sponsors-2-100x100.png 100w, https://app.ergo7.net/surge/wp-content/uploads/2018/01/sponsors-2.png 350w"
-                                                                                                                           sizes="(max-width: 150px) 100vw, 150px" /></div>
-                                                        </figure>
-                                                    </div>
+                                                    <figure class="wpb_wrapper vc_figure">
+                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="150" height="150" src="wp-content/uploads/2018/01/sponsors-10-150x150.png" class="vc_single_image-img attachment-thumbnail" alt="" srcset="https://app.ergo7.net/surge/wp-content/uploads/2018/01/sponsors-10-150x150.png 150w, https://app.ergo7.net/surge/wp-content/uploads/2018/01/sponsors-10-300x300.png 300w, https://app.ergo7.net/surge/wp-content/uploads/2018/01/sponsors-10-100x100.png 100w, https://app.ergo7.net/surge/wp-content/uploads/2018/01/sponsors-10.png 350w"
+                                                                                                                       sizes="(max-width: 150px) 100vw, 150px" /></div>
+                                                    </figure>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </section>
+                                    <div class="wpb_column vc_column_container vc_col-sm-3">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="wpb_single_image wpb_content_element vc_align_center  wpb_animate_when_almost_visible wpb_fadeIn fadeIn">
+
+                                                    <figure class="wpb_wrapper vc_figure">
+                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="150" height="150" src="wp-content/uploads/2018/01/sponsors-5-150x150.png" class="vc_single_image-img attachment-thumbnail" alt="" srcset="https://app.ergo7.net/surge/wp-content/uploads/2018/01/sponsors-5-150x150.png 150w, https://app.ergo7.net/surge/wp-content/uploads/2018/01/sponsors-5-300x300.png 300w, https://app.ergo7.net/surge/wp-content/uploads/2018/01/sponsors-5-100x100.png 100w, https://app.ergo7.net/surge/wp-content/uploads/2018/01/sponsors-5.png 350w"
+                                                                                                                       sizes="(max-width: 150px) 100vw, 150px" /></div>
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wpb_column vc_column_container vc_col-sm-3">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="wpb_single_image wpb_content_element vc_align_center  wpb_animate_when_almost_visible wpb_fadeIn fadeIn">
+
+                                                    <figure class="wpb_wrapper vc_figure">
+                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="150" height="150" src="wp-content/uploads/2018/01/sponsors-2-150x150.png" class="vc_single_image-img attachment-thumbnail" alt="" srcset="https://app.ergo7.net/surge/wp-content/uploads/2018/01/sponsors-2-150x150.png 150w, https://app.ergo7.net/surge/wp-content/uploads/2018/01/sponsors-2-300x300.png 300w, https://app.ergo7.net/surge/wp-content/uploads/2018/01/sponsors-2-100x100.png 100w, https://app.ergo7.net/surge/wp-content/uploads/2018/01/sponsors-2.png 350w"
+                                                                                                                       sizes="(max-width: 150px) 100vw, 150px" /></div>
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
                             <div class="vc_row wpb_row vc_row-fluid vc_custom_1518599519832 vc_row-o-content-middle vc_row-flex">
                                 <div class="wpb_column vc_column_container vc_col-sm-12">
                                     <div class="vc_column-inner ">
                                         <div class="wpb_wrapper">
-                                            <h2 style="text-align: center" class="vc_custom_heading wpb_animate_when_almost_visible wpb_top-to-bottom top-to-bottom vc_custom_1524659124496"> OUR HASHTAGES</h2>
+                                            <h2 style="text-align: center" class="vc_custom_heading wpb_animate_when_almost_visible wpb_top-to-bottom top-to-bottom vc_custom_1524659124496"> OUR HASHTAGS</h2>
                                             <div class="wpb_text_column wpb_content_element  vc_custom_1524659135204">
                                                 <div class="wpb_wrapper">
                                                     <p style="text-align: center;">#UNPEEPCREATIVES #THEUNPEEP #REIMAGINECREATIVITY #UNPEEPWEEKLY</p>

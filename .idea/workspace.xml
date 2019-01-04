@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f445d2db-4761-40a5-a96a-6854baa359f7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="f445d2db-4761-40a5-a96a-6854baa359f7" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,8 +93,8 @@
       <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="145" column="157" selection-start-line="145" selection-start-column="157" selection-end-line="145" selection-end-column="157" />
+            <state relative-caret-position="270">
+              <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="250" selection-end-column="42" />
               <folding>
                 <element signature="e#8147#8188#0#HTML" expanded="true" />
                 <element signature="e#9460#10021#0#HTML" />
@@ -537,7 +535,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53909000" />
+    <option name="totallyTimeSpent" value="54237000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="25" width="1317" height="743" extended-state="6" />
@@ -836,8 +834,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="145" column="157" selection-start-line="145" selection-start-column="157" selection-end-line="145" selection-end-column="157" />
+        <state relative-caret-position="270">
+          <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="250" selection-end-column="42" />
           <folding>
             <element signature="e#8147#8188#0#HTML" expanded="true" />
             <element signature="e#9460#10021#0#HTML" />
