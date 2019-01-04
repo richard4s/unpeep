@@ -86,11 +86,16 @@
                                                         <ul>
                                                             <li>Photographer</li>
                                                             <li>Videographer</li>
+<<<<<<< HEAD
                                                             <li>Model</li>
                                                             <li>Stylist</li>
                                                             
+=======
+>>>>>>> bc0652ab911c3f50e3cbdec5faf7274532e7b603
                                                         </ul>
-
+                                                        <div class="wpb_wrapper">
+                                                            <a href="{{ route('photographer') }}" class="action-btn wpcf7-submit">CREATE </a>
+                                                        </div>
 
                                                     </div>
                                                 </div>
@@ -100,16 +105,25 @@
                                     <div class="wpb_column vc_column_container vc_col-sm-6 vc_col-has-fill">
                                         <div class="vc_column-inner vc_custom_1524621480522">
                                             <div class="wpb_wrapper">
+<<<<<<< HEAD
                                                 <h2 style="color: #cb2342;text-align: center" class="vc_custom_heading vc_custom_1521133261358">I AM A COMPANY</br>Brand</h2>
+=======
+                                                <h2 style="color: #cb2342;text-align: center" class="vc_custom_heading vc_custom_1521133261358">I AM A COMPANY</h2>
+>>>>>>> bc0652ab911c3f50e3cbdec5faf7274532e7b603
                                                 <div class="wpb_text_column wpb_content_element  vc_custom_1524660164310">
                                                     <div class="wpb_wrapper">
                                                         <ul>
                                                             <li>Brand</li>
                                                             <li>Agency</li>
+<<<<<<< HEAD
                                                             <li>Event-Planner</li>
                                                             <li>Individual</li>
+=======
+>>>>>>> bc0652ab911c3f50e3cbdec5faf7274532e7b603
                                                         </ul>
-
+                                                        <div class="wpb_wrapper">
+                                                            <a href="{{ route('photographer') }}" class="action-btn wpcf7-submit">PLAN </a>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>

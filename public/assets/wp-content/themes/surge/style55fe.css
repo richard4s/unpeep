@@ -141,6 +141,24 @@ img {
     max-width: 100%;
 }
 
+.action-btn {
+    padding: 2em 18em !important;
+    font-size: 14px !important;
+    background-color: #cb3742;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: inline-block;
+    -webkit-box-shadow: inset 0 -1px 0 transparent !important;
+    box-shadow: inset 0 -1px 0 transparent !important;
+    font-weight: 800;
+    line-height: 1;
+    text-shadow: none;
+    -webkit-transition: background 0.2s;
+    transition: background 0.2s;
+}
+
 textarea {
     background-color:#071f3c;
 }

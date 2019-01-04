@@ -20,6 +20,7 @@ Route::get('/about', 'HomeController@about')->name('about');
 Route::get('/contact', 'HomeController@contact')->name('contact');
 Route::get('/stock', 'HomeController@unpeep_stock')->name('stock');
 
-Route::get('/book-photographer', 'PeeperController@index')->name('book-photographer');
-Route::post('/book-photographer', 'PeeperController@store');
+Route::get('/photographer', 'PeeperController@index')->name('photographer');
+Route::post('/photographer', 'PeeperController@store');
+Route::get('/book-photographer', 'PeeperController@book')->name('book-photographer');
 

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
+use App\Peeper;
 
 class PeeperController extends Controller
 {
@@ -38,7 +39,7 @@ class PeeperController extends Controller
     {
         //
         if($request->all()) {
-            User::create([
+            Peeper::create([
                'first_name' => $request['first_name'],
                'last_name' => $request['last_name'],
                'email' => $request['email'],
@@ -50,11 +51,13 @@ class PeeperController extends Controller
                 'gender' => $request['gender'],
                 'password' => Hash::make($request['password']),
             ]);
+
+            //Send confirmation email here
+
+            return redirect('home')->with('status', 'We have sent you a confirmation email');
         }
 
-        //Send confirmation email here
 
-        return redirect()->with('success', 'We have sent you a confirmation email'); //route('home');
     }
 
     /**
@@ -100,5 +103,19 @@ class PeeperController extends Controller
     public function destroy($id)
     {
         //
+    }
+
+    public function plan(Request $request) {
+        if($request->all()) {
+
+        }
+        return view('plan');
+    }
+
+    public function book(Request $request) {
+        if($request->all()) {
+
+        }
+        return view('book');
     }
 }
