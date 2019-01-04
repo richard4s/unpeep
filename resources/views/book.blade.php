@@ -35,8 +35,13 @@
     <link rel="stylesheet" href="{{ URL::asset('assets/css/book-style.css') }}">
 </head>
 <body>
+
+<a href="{{ __('/') }}">
+    <img width="200" src='{{ URL::asset('assets/images/unpeep-clear-logo.png') }}' alt='Unpeep'/>
+</a>
+
 <div class="wrapper">
-    <form action="" id="wizard">
+    <form action="" method="post" id="wizard">
         <!-- SECTION 1 -->
         <h4></h4>
         <section>
@@ -115,8 +120,8 @@
                 <div class="form-content">
                     <div class="form-inner">
                         <div class="form-header">
-                            <h3>Contact details</h3>
-                            <p>~ Check out our place ~</p>
+                            <h3>Book a Photographer</h3>
+                            <p>~ Just Re:imagine Creativity ~</p>
                         </div>
                         <div class="form-row">
                             <label for="">
@@ -157,8 +162,8 @@
 									<span>
 										<i class="zmdi zmdi-check"></i>
 									</span>
-                            <p class="text-1">Your table is ready</p>
-                            <p class="text-2">~ Happy friends with a say ~</p>
+                            <p class="text-1">Yipee! You booked a peeper</p>
+                            <p class="text-2">~ We would send you a confirmation email ~</p>
                         </div>
                     </div>
                 </div>
