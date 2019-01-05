@@ -142,7 +142,7 @@ img {
 }
 
 .action-btn {
-    padding: 2em 18em !important;
+    padding: 2em 13em !important;
     font-size: 14px !important;
     background-color: #cb3742;
     -webkit-box-shadow: none;
@@ -155,6 +155,9 @@ img {
     font-weight: 800;
     line-height: 1;
     text-shadow: none;
+    margin: 0 auto;
+    width: 100%;
+    text-align:  center;
     -webkit-transition: background 0.2s;
     transition: background 0.2s;
 }
