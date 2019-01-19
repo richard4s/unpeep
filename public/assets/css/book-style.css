@@ -18,7 +18,10 @@
 body {
   font-family: "Raleway-Regular";
   font-size: 13px;
-  margin: 0; }
+  margin: 0;
+	background: url("../fonts/montserrat/LOGIN-BACKGROUND.jpg");
+	background-size: cover;
+}
 
 :focus {
   outline: none; }

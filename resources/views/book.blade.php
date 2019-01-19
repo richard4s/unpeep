@@ -35,12 +35,15 @@
     <link rel="stylesheet" href="{{ URL::asset('assets/css/book-style.css') }}">
 </head>
 <body>
+   
 
 <a href="{{ __('/') }}">
-    <img width="200" src='{{ URL::asset('assets/images/unpeep-clear-logo.png') }}' alt='Unpeep'/>
+    <img width="200" src='{{ URL::asset('assets/images/surge-logo.png') }}' alt='Unpeep'/>
 </a>
 
 <div class="wrapper">
+    
+   
     <form action="" method="post" id="wizard">
         <!-- SECTION 1 -->
         <h4></h4>
@@ -58,7 +61,7 @@
                         <div class="form-row" style="margin-bottom: 31px;">
                             <label for="">
                                 <i class="zmdi zmdi-account-o"></i>
-                                People
+                                Select Service
                             </label>
                             <div class="select">
                                 <div class="form-holder">
@@ -66,25 +69,33 @@
                                     <i class="zmdi zmdi-chevron-down"></i>
                                 </div>
                                 <ul class="dropdown">
-                                    <li rel="1">1</li>
-                                    <li rel="2">2</li>
-                                    <li rel="3">3</li>
-                                    <li rel="4">4</li>
-                                    <li rel="5">5</li>
+                                    <li rel="Photographer">Photographer</li>
+                                    <li rel="Videographer">Videographer</li>
+                                    <li rel="Model">Model</li>
+                                    
                                 </ul>
                             </div>
                         </div>
+                            
+                            <div class="form-row">
+                            <label for="">
+                                <i class="zmdi zmdi-account-o"></i>
+                                Occasion
+                            </label>
+                            <input type="text" class="form-control" placeholder="e.g: wedding, branding">
+                        </div>
+                            
                         <div class="form-row" style="margin-bottom: 31px;">
                             <label for="">
                                 <i class="zmdi zmdi-calendar-check"></i>
-                                Date
+                                Planned Date
                             </label>
                             <input type='text' class='datepicker-here form-control' data-language='en' id="dp" data-date-format="dd M yyyy"/>
                         </div>
                         <div class="form-row">
                             <label for="" style="margin-bottom: 9px;">
                                 <i class="zmdi zmdi-alarm"></i>
-                                Time
+                                Planned Time
                             </label>
                             <div class="form-holder select-holder">
                                 <select name="" id="" class="form-control">
@@ -104,6 +115,7 @@
                                 </select>
                                 <i class="zmdi zmdi-caret-down"></i>
                             </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -143,6 +155,14 @@
                                 Email
                             </label>
                             <input type="text" class="form-control" placeholder="Your Email">
+                        </div>
+                            
+                            <div class="form-row">
+                            <label for="">
+                                <i class="zmdi zmdi-email"></i>
+                                Note
+                            </label>
+                            <input type="text" class="form-control" placeholder="Any other thing you wants us to know">
                         </div>
                     </div>
                 </div>

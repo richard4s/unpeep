@@ -48,7 +48,7 @@
                     <aside id="text-3" class="widget widget_text">
                         <div class="textwidget">
                             <h3 style="text-align: center;">Need Help</h3>
-                            <div style="text-align: center;color:#ffffff">unpeephelp@gmail.com</div>
+                            <div style="text-align: center;color:#ffffff"> <a	target="_blank" href="https://unpeep.crisp.help/en/">Unpeep.help</a></div>
                         </div>
                     </aside>
                 </aside>

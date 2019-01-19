@@ -633,7 +633,12 @@
             background-color: #06172b !important;
         }
     </style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
-</head>
+                                  <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/b4f2dfa1c05a78271029e9669/b86b66ac2c91f18f5a3998431.js");</script>
+
+                                  
+                                  <script type="text/javascript"> window.$crisp=[];window.CRISP_WEBSITE_ID="55b093a8-bc58-439a-88d8-faa57e3a8437";(function(){ d=document;s=d.createElement("script"); s.src="https://client.crisp.chat/l.js"; s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})(); </script>
+                                  
+                                  </head>
 <body class="home page-template page-template-template-homepage page-template-template-homepage-php page page-id-418 woocommerce-no-js surge-dark woocommerce-active wpb-js-composer js-comp-ver-5.5.2 vc_responsive">
 <!-- PRE LOADER -->
 <div class="preloader">
