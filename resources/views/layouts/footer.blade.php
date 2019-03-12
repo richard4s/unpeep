@@ -28,7 +28,7 @@
                     <aside id="text-1" class="widget widget_text">
                         <div class="textwidget">
                             <h3 style="text-align: center;">Contact Us</h3>
-                            <div style="text-align: center;color:#ffffff">unpeepofficial@gmail.com</div>
+                            <div style="text-align: center;color:#ffffff">hello@unpeep.com</div>
                         </div>
                     </aside>
                 </aside>
