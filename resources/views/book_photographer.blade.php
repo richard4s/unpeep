@@ -68,7 +68,7 @@
         <div class="col-lg-6 content-left">
             <div class="content-left-wrapper bg_restaurant">
                 <div class="wrapper">
-                    <a href="{{ __('/') }}" id="logo"><img src="{{ URL::asset('assets/images/unpeep-white.png') }}" alt="Unpeep" width="100" height="70"></a>
+                    <a href="{{ __('/') }}" id="logo"><img src="{{ URL::asset('assets/images/unpeep-w.png') }}" alt="Unpeep" width="200" height="140"></a>
                     <div id="social">
                         <ul>
                             <li><a href="https://www.twitter.com/unpeepcreatives"><i class="social_twitter"></i></a></li>

@@ -34,7 +34,7 @@
 <body>
 <div class="wrapper">
     <div class="image-holder">
-        <a href="{{ __('/') }}"><img style="padding-right: 100px" src="{{ URL::asset('assets/images/unpeep-white.png') }}" alt="Unpeep"></a>
+        <a href="{{ __('/') }}"><img style="padding-right: 100px" src="{{ URL::asset('assets/images/unpeep-w.png') }}" alt="Unpeep"></a>
     </div>
     <form id="actualWizard" action="/photographer" method="post" enctype="multipart/form-data">
         @csrf

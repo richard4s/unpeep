@@ -650,20 +650,20 @@
     <header id="masthead" class="site-header">
 
 
-        <div class="classic-menu container home-menu  ">
+        <div class="classic-menu container home-menu">
             <div class="menu-logo">
                 <a href="{{ __('/') }}" rel="home">
-                    <img src='{{ URL::asset('assets/images/unpeep-white.png') }}' alt='Unpeep Logo'/>               </a>
+                    <img src='{{ URL::asset('assets/images/unpeep-w.png') }}' alt='Unpeep Logo'/>               </a>
             </div>
             <div class="menu-wrapper">
                 <nav id="normal-menu">
                     <div>
                         <div class="primary-menu">
                             <ul id="primary-menu" class="menu">
-                                <li id="menu-item-3828" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-3828"><a href="{{ __('/') }}">HOME</a>
+                                <li id="menu-item-3828" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3828"><a href="{{ __('/') }}">HOME</a>
 
                                 </li>
-                                <li id="menu-item-3827" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3827"><a href="{{ route('about') }}">ABOUT</a>
+                                <li id="menu-item-3827" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3827"><a href="{{ route('about') }}">ABOUT</a>
 
                                 </li>
                                 <li id="menu-item-3867" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3867"><a href="{{ route('stock') }}">UNPEEP STOCK</a></li>
