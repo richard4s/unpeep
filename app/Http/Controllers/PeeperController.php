@@ -143,6 +143,13 @@ class PeeperController extends Controller
         return view('plan');
     }
 
+    public function bookPhotographer(Request $request) {
+        if($request->all()) {
+
+        }
+        return view('book_photographer');
+    }
+
     public function book(Request $request) {
         if($request->all()) {
             Peeper::create([
