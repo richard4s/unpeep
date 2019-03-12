@@ -20,11 +20,12 @@ Route::get('/about', 'HomeController@about')->name('about');
 Route::get('/contact', 'HomeController@contact')->name('contact');
 Route::get('/stock', 'HomeController@unpeep_stock')->name('stock');
 
-Route::get('/book-photographer', 'PeeperController@index')->name('book-photographer');
-Route::post('/photographer', 'PeeperController@store');
+Route::get('/book-photographer', 'PeeperController@bookPhotographer')->name('book-photographer');
+Route::post('/book-photographer', 'PeeperController@bookPhotographer');
 
 Route::get('/planner', 'PeeperController@planner')->name('planner');
 Route::post('/planner', 'PeeperController@planner');
 //Route::post('/photographer', 'PeeperController@book');
 Route::get('/photographer', 'PeeperController@book')->name('photographer');
+Route::post('/photographer', 'PeeperController@book');
 
