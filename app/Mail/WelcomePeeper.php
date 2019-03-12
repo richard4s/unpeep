@@ -31,6 +31,6 @@ class WelcomePeeper extends Mailable
      */
     public function build()
     {
-        return $this->view('emails.welcomePeeper')->subject('Welcome Peeper!');
+        return $this->view('emails.welcomepeeper')->subject('Welcome Peeper!');
     }
 }
