@@ -16,8 +16,8 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>{{ config('app.name', 'Unpeep') }} &#8211; Just Re:imagine Creativity</title>
-    <link rel="shortcut icon" href="{{ URL::asset('assets/images/favicon.png') }}">
-    <link rel="apple-touch-icon" href="{{ URL::asset('assets/images/logox.png') }}" />
+    <link rel="shortcut icon" href="{{ URL::asset('assets/images/unpeep_logo.png') }}">
+    <link rel="apple-touch-icon" href="{{ URL::asset('assets/images/unpeep_logo.png') }}" />
 
     <meta name="author" content="The Unpeep Team" />
     <meta name="description" content="Job board platform for photographers, Share creative designs and Express yourself!" />
@@ -653,7 +653,7 @@
         <div class="classic-menu container home-menu  ">
             <div class="menu-logo">
                 <a href="{{ __('/') }}" rel="home">
-                    <img src='{{ URL::asset('assets/images/logox.png') }}' alt='logo2'/>               </a>
+                    <img src='{{ URL::asset('assets/images/unpeep-white.png') }}' alt='Unpeep Logo'/>               </a>
             </div>
             <div class="menu-wrapper">
                 <nav id="normal-menu">

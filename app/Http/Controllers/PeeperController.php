@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Mail;
 use App\Peeper;
 
@@ -47,7 +48,7 @@ class PeeperController extends Controller
                 'address' => $request['address'],
                 'city' => $request['city'],
                 'skillset' => $request['skillset'],
-                'instagram_username' => $request['link'],
+                'instagram_username' => $request['instagram_username'],
                 'gender' => $request['gender'],
                 'password' => Hash::make($request['password']),
             ]);
@@ -114,8 +115,22 @@ class PeeperController extends Controller
 
     public function book(Request $request) {
         if($request->all()) {
-
+            Peeper::create([
+                'first_name' => $request->first_name,
+                'last_name' => $request->last_name,
+                'number' => $request->number,
+                'gender' => $request->gender,
+                'address' => $request->address,
+                'city' => $request->city,
+                'skillset' => $request->skillset,
+                'instagram_username' => $request->instagram_username,
+                'email' => $request->email,
+                'password' => Hash::make($request->password),
+                'category' => $request->category,
+            ]);
+            return redirect()->route('home')->with('success', 'Your message has been sent successfully!');
         }
-        return view('book');
+        return view('book_photographer');
     }
+
 }

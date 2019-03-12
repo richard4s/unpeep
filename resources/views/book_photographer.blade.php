@@ -41,73 +41,75 @@
 <div class="main">
 
     <div class="container">
-        <form method="POST" id="signup-form" class="signup-form" action="#{{ route('book-photographer') }}">
+        <form method="post" id="signup-form" class="signup-form" action="{{ route('book-photographer') }}">
+            @csrf
             <div>
                 <h3></h3>
                 <fieldset>
+                    <input type="hidden" name="category" value="photographer" />
                     <input type="text" name="first_name" id="first_name" />
-                    <label for="first_name" class="form-label">01 . What is your first name ?</label>
+                    <label style="font-size: 16px !important;" for="first_name" class="form-label">01 . What is your first name ?</label>
                 </fieldset>
 
                 <h3></h3>
                 <fieldset>
                     <input type="text" name="last_name" id="last_name" />
-                    <label for="last_name" class="form-label">02 . What is your last name ?</label>
+                    <label style="font-size: 16px !important;" for="last_name" class="form-label">02 . What is your last name ?</label>
                 </fieldset>
 
                 <h3></h3>
                 <fieldset>
                     <input type="email" name="email" id="email" />
-                    <label for="email" class="form-label">03 . What is your Email ?</label>
+                    <label style="font-size: 16px !important;" for="email" class="form-label">03 . What is your Email ?</label>
                 </fieldset>
 
                 <h3></h3>
                 <fieldset>
                     <input type="text" name="skillset" id="skillset" />
-                    <label for="skillset" class="form-label">04 . Your Skillset ?</label>
+                    <label style="font-size: 16px !important;" for="skillset" class="form-label">04 . Your Skillset ?</label>
                 </fieldset>
 
                 <h3></h3>
                 <fieldset>
-                    <input type="text" name="link" id="link" />
-                    <label for="link" class="form-label">05 . Instagram Userame ?</label>
+                    <input type="text" name="instagram_username" id="link" />
+                    <label style="font-size: 16px !important;" for="link" class="form-label">05 . Instagram Userame ?</label>
                 </fieldset>
 
                 <h3></h3>
                 <fieldset>
                     <input type="text" name="number" id="number" />
-                    <label for="number" class="form-label">06 . Your Number ?</label>
+                    <label style="font-size: 16px !important;" for="number" class="form-label">06 . Your Number ?</label>
                 </fieldset>
 
                 <h3></h3>
                 <fieldset>
                     <input type="city" name="city" id="city" />
-                    <label for="city" class="form-label">07 . City you reside ?</label>
+                    <label style="font-size: 16px !important;" for="city" class="form-label">07 . City you reside ?</label>
                 </fieldset>
 
                 <h3></h3>
                 <fieldset>
                     <input type="text" name="address" id="address" />
-                    <label for="address" class="form-label">08 . Your Address ?</label>
+                    <label style="font-size: 16px !important;" for="address" class="form-label">08 . Your Address ?</label>
                 </fieldset>
 
                 <h3></h3>
                 <fieldset>
                     <input type="text" name="gender" id="gender" />
-                    <label for="gender" class="form-label">09 . Your Gender ?</label>
+                    <label style="font-size: 16px !important;" for="gender" class="form-label">09 . Your Gender ?</label>
                 </fieldset>
 
                 <h3></h3>
                 <fieldset>
                     <input type="text" name="password" id="password" />
-                    <label for="password" class="form-label">10 . Create your password</label>
+                    <label style="font-size: 16px !important;" for="password" class="form-label">10 . Create your password</label>
                     <span toggle="#password" class="zmdi zmdi-eye field-icon toggle-password"></span>
                 </fieldset>
 
                 <h3></h3>
                 <fieldset>
                     <input type="text" name="password_confirmation" id="re_password" />
-                    <label for="re_password" class="form-label">11 . Repeat your password </label>
+                    <label style="font-size: 16px !important;" for="re_password" class="form-label">11 . Repeat your password </label>
                     <span toggle="#re_password" class="zmdi zmdi-eye field-icon toggle-password"></span>
                 </fieldset>
             </div>

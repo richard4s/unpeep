@@ -23,4 +23,5 @@ Route::get('/stock', 'HomeController@unpeep_stock')->name('stock');
 Route::get('/photographer', 'PeeperController@index')->name('photographer');
 Route::post('/photographer', 'PeeperController@store');
 Route::get('/book-photographer', 'PeeperController@book')->name('book-photographer');
+Route::post('/book-photographer', 'PeeperController@book');
 

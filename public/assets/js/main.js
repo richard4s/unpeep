@@ -71,6 +71,7 @@
         onFinished: function (event, currentIndex)
         {
             form.parent().parent().append('<h1>Thank You!</h1><h1>We have sent you a confirmation email. <br><a href="/">Back to Unpeep</a> </h1>').parent().addClass('finished');
+            form.submit();
             return true;
         },
         onStepChanged : function (event, currentIndex, priorIndex) {
