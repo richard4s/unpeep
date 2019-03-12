@@ -59,7 +59,7 @@ $(function(){
             // });
 
             $("#actualWizard").submit();
-            alert('hi');
+            // alert('hi');
         },
         labels: {
             finish: "Finish",

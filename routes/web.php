@@ -27,5 +27,5 @@ Route::get('/planner', 'PeeperController@planner')->name('planner');
 Route::post('/planner', 'PeeperController@planner');
 //Route::post('/photographer', 'PeeperController@book');
 Route::get('/photographer', 'PeeperController@book')->name('photographer');
-Route::post('/photographer', 'PeeperController@book');
+Route::post('/photographer', 'PeeperController@store');
 
