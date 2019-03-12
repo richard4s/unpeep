@@ -85,6 +85,16 @@ class PeeperController extends Controller
             //Send confirmation email here
             Mail::to($request['email'])->queue(new WelcomePeeper($request['first_name']));
 
+            Mail::send([], [], function ($message) use($request)
+            {
+
+                $message->to($request['email']);
+                $message->subject('Welcome Peeper');
+                $message->from('hello@unpeep.com', 'Unpeep');
+                $message->setBody("Hello, {$request['first_name']}<br> Welcome to Unpeep. <br>We're glad to have you be part of us. We would be sending emails about updates to unpeep as we currently are in our beta-phase (No spam promise).<br><p>P.S - Fingers Crossed :)</p>", 'text/html');
+
+            });
+
             return redirect('home')->with('status', 'We have sent you a confirmation email.');
         }
 
