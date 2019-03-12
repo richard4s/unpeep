@@ -107,7 +107,7 @@
                                                             <li>Agency</li>
                                                         </ul>
                                                         <div class="wpb_wrapper">
-                                                            <a href="{{ route('photographer') }}" class="action-btn wpcf7-submit">PLAN </a>
+                                                            <a href="{{ route('planner') }}" class="action-btn wpcf7-submit">PLAN </a>
                                                         </div>
                                                     </div>
                                                 </div>
