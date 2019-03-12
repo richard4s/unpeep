@@ -71,13 +71,13 @@
                     <a href="{{ __('/') }}" id="logo"><img src="{{ URL::asset('assets/images/unpeep-white.png') }}" alt="Unpeep" width="100" height="70"></a>
                     <div id="social">
                         <ul>
-                            <li><a href="#0"><i class="social_twitter"></i></a></li>
+                            <li><a href="https://www.twitter.com/unpeepcreatives"><i class="social_twitter"></i></a></li>
                             <li><a href="https://www.instagram.com/theunpeep/"><i class="social_instagram"></i></a></li>
                         </ul>
                     </div>
                     <!-- /social -->
                     <div class="left_title">
-                        <h3>Book a photographer</h3>
+                        <h3>Book a Creator</h3>
                         <p>From our highly vetted picture ninjas</p>
                     </div>
                 </div>
