@@ -47,7 +47,7 @@
                                     <td align="center" valign="middle" style="padding-top: 40px; padding-bottom: 40px;" class="emailLogo">
                                         <!-- Logo and Link // -->
                                         <a href="#" target="_blank" style="text-decoration:none;">
-                                            <img src="https://imgur.com/oqEmUD2" alt="" width="150" border="0" style="width:100%; max-width:150px;height:auto; display:block;">
+                                            <img src="{{ env('APP_URL') . '/assets/images/logo.png' }}" alt="" width="150" border="0" style="width:100%; max-width:150px;height:auto; display:block;">
                                         </a>
                                     </td>
                                 </tr>
@@ -76,7 +76,7 @@
                                     <td align="center" valign="top" style="padding-bottom: 20px;" class="imgHero">
                                         <!-- Hero Image // -->
                                         <a href="#" target="_blank" style="text-decoration:none;">
-                                            <img src="https://imgur.com/RuvQGSS" width="600" alt="" border="0" style="width:100%; max-width:600px; height:auto; display:block;">
+                                            <img src="{{ env('APP_URL') . '/assets/images/user-subscribe.png' }}" width="600" alt="" border="0" style="width:100%; max-width:600px; height:auto; display:block;">
                                         </a>
                                     </td>
                                 </tr>
@@ -144,7 +144,7 @@
                                 <tr><td align="left" valign="middle" style="padding-bottom:40px" class="emailRegards">
                                         <!-- Image and Link // -->
                                         <a href="#" target="_blank" style="text-decoration:none;">
-                                            <img mc:edit="signature" src="https://imgur.com/teYILZ8" alt="" width="150" border="0" style="width:100%;
+                                            <img mc:edit="signature" src="{{ env('APP_URL') . '/assets/images/footer.png' }}" alt="" width="150" border="0" style="width:100%;
 max-width:150px; height:auto; display:block;">
                                         </a>
                                     </td>
@@ -174,23 +174,23 @@ max-width:150px; height:auto; display:block;">
                                     <td align="center" valign="top" style="padding-top:10px;padding-bottom:10px;padding-left:10px;padding-right:10px;" class="socialLinks">
                                         <!-- Social Links (Facebook)// -->
                                         <a href="#facebook-link" target="_blank" style="display:inline-block;" class="facebook">
-                                            <img src="{{ base_path() . '/assets/images/facebook.png' }}" alt="" width="40" border="0" style="height:auto; width:100%; max-width:40px; margin-left:2px; margin-right:2px">
+                                            <img src="{{ env('APP_URL') . '/assets/images/facebook.png' }}" alt="" width="40" border="0" style="height:auto; width:100%; max-width:40px; margin-left:2px; margin-right:2px">
                                         </a>
                                         <!-- Social Links (Twitter)// -->
                                         <a href="#twitter-link" target="_blank" style="display:inline-block;" class="twitter">
-                                            <img src="{{ base_path() . '/assets/images/twitter.png' }}" alt="" width="40" border="0" style="height:auto; width:100%; max-width:40px; margin-left:2px; margin-right:2px">
+                                            <img src="{{ env('APP_URL') . '/assets/images/twitter.png' }}" alt="" width="40" border="0" style="height:auto; width:100%; max-width:40px; margin-left:2px; margin-right:2px">
                                         </a>
                                         <!-- Social Links (Pintrest)// -->
                                         <a href="https://www.youtube.com/channel/UCBcuf-npjsV64w9_YKA2qlg?view_as=subscriber" target="_blank" style="display:inline-block;" class="pintrest">
-                                            <img src="{{ base_path() . '/assets/images/youtube.png' }}" alt="" width="40" border="0" style="height:auto; width:100%; max-width:40px; margin-left:2px; margin-right:2px">
+                                            <img src="{{ env('APP_URL') . '/assets/images/youtube.png' }}" alt="" width="40" border="0" style="height:auto; width:100%; max-width:40px; margin-left:2px; margin-right:2px">
                                         </a>
                                         <!-- Social Links (Instagram)// -->
                                         <a href="https://www.instagram.com/theunpeep/" target="_blank" style="display:inline-block;" class="instagram">
-                                            <img src="{{ base_path() . '/assets/images/instagram.png' }}" alt="" width="40" border="0" style="height:auto; width:100%; max-width:40px; margin-left:2px; margin-right:2px">
+                                            <img src="{{ env('APP_URL') . '/assets/images/instagram.png' }}" alt="" width="40" border="0" style="height:auto; width:100%; max-width:40px; margin-left:2px; margin-right:2px">
                                         </a>
                                         <!-- Social Links (Linkdin)// -->
                                         <a href="#linkdin-link" target="_blank" style="display:inline-block;" class="linkdin">
-                                            <img src="{{ base_path() . '/assets/images/linkdin.png' }}" alt="" width="40" border="0" style="height:auto; width:100%; max-width:40px; margin-left:2px; margin-right:2px">
+                                            <img src="{{env('APP_URL') . '/assets/images/linkdin.png' }}" alt="" width="40" border="0" style="height:auto; width:100%; max-width:40px; margin-left:2px; margin-right:2px">
                                         </a>
                                     </td>
                                 </tr>
