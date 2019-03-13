@@ -7,6 +7,12 @@
         </div>
     @endif
 
+    @if (session('success_appointment'))
+        <div class="alert alert-success" role="alert">
+            {{ session('success_appointment') }}
+        </div>
+    @endif
+
     <div id="content" class="site-content">
         <!-- particles.js container -->
         <div id='particles-js'></div>

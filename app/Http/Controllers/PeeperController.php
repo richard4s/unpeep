@@ -2,15 +2,15 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\AppointmentMail;
 use Mail;
 use App\Mail\WelcomePeeper;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 //use Illuminate\Support\Facades\Mail;
 use App\Peeper;
+use App\Appointment;
 use Mockery\Exception;
-//use Mail;
-//use App\Mail;
 
 class PeeperController extends Controller
 {
@@ -161,27 +161,46 @@ class PeeperController extends Controller
 
     public function bookPhotographer(Request $request) {
         if($request->all()) {
+            Appointment::create([
+                'first_name' => $request['first_name'],
+                'last_name' => $request['last_name'],
+                'telephone' => $request['telephone'],
+                'email' => $request['email'],
+                'venue' => $request['venue'],
+                'quantity' => $request['adults'],
+                'time' => $request['time'],
+                'date' => $request['dates'],
+                'event' => $request['event'],
+                'notes' => $request['notes'],
+            ]);
 
+            try {
+                Mail::to($request['email'])->queue(new AppointmentMail($request['first_name'], $request['last_name'], $request['telephone'], $request['email'], $request['venue'], $request['adults'], $request['time'], $request['dates'], $request['event'], $request['notes']));
+            } catch(Exception $e) {
+                return $e;
+            }
+
+            return redirect()->route('home')->with('success_appointment', 'Your appointment has been booked successfully!');
         }
         return view('book_photographer');
     }
 
     public function book(Request $request) {
         if($request->all()) {
-            Peeper::create([
-                'first_name' => $request->first_name,
-                'last_name' => $request->last_name,
-                'number' => $request->number,
-                'gender' => $request->gender,
-                'address' => $request->address,
-                'city' => $request->city,
-                'skillset' => $request->skillset,
-                'instagram_username' => $request->instagram_username,
-                'email' => $request->email,
-                'password' => Hash::make($request->password),
-                'category' => $request->category,
-            ]);
-            return redirect()->route('home')->with('success', 'Your message has been sent successfully!');
+//            Peeper::create([
+//                'first_name' => $request['first_name'],
+//                'last_name' => $request['last_name'],
+//                'number' => $request['telephone'],
+//                'gender' => $request->gender,
+//                'address' => $request->address,
+//                'city' => $request->city,
+//                'skillset' => $request->skillset,
+//                'instagram_username' => $request->instagram_username,
+//                'email' => $request->email,
+//                'password' => Hash::make($request->password),
+//                'category' => $request->category,
+//            ]);
+//            return redirect()->route('home')->with('success', 'Your message has been sent successfully!');
         }
         return view('photographer');
     }

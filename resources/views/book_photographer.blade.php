@@ -36,6 +36,7 @@
 
     <!-- YOUR CUSTOM CSS -->
     <link href="{{ URL::asset('assets/css/book/custom.css') }}" rel="stylesheet">
+    <link href="{{ URL::asset('assets/css/book/jquery.timepicker.min.css') }}" rel="stylesheet">
 
     <!-- MODERNIZR -->
     <script src="{{ URL::asset('assets/js/book/modernizr.js') }}"></script>
@@ -93,6 +94,7 @@
                 </div>
                 <!-- /top-wizard -->
                 <form id="wrapped" method="POST" enctype="multipart/form-data">
+                    @csrf
                     <input id="website" name="website" type="text" value="">
                     <!-- Leave for security protection, read docs for details -->
                     <div id="middle-wizard">
@@ -103,40 +105,31 @@
                                 <i class="icon-hotel-calendar_3"></i>
                             </div>
                             <div class="form-group">
-                                <div class="styled-select clearfix">
-                                    <select class="wide time required" name="time">
-                                        <option value="">Preferred time</option>
-                                        <option value="07.30 PM">07.30 PM</option>
-                                        <option value="08.00 PM">08.00 PM</option>
-                                        <option value="08.30 PM">08.30 PM</option>
-                                        <option value="09.00 PM">09.00 PM</option>
-                                        <option value="09.30 PM">09.30 PM</option>
-                                        <option value="10.00 PM">10.00 PM</option>
-                                    </select>
-                                </div>
+                                <input name="time" id="" type="time" class="wide time form-control required" />
+                                <i class="icon-clock"></i>
                             </div>
                             <div class="row no-gutters pb-1">
-                                <div class="col-6 pr-2">
+                                <div class="col-12 pr-2">
                                     <div class="form-group">
                                         <div class="qty-buttons">
                                             <input type="button" value="+" class="qtyplus" name="adults">
-                                            <input type="text" name="adults" id="adults" value="" class="qty form-control required" placeholder="Adults">
+                                            <input type="text" name="adults" id="adults" value="" class="qty form-control required" placeholder="Photographers">
                                             <input type="button" value="-" class="qtyminus" name="adults">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-6 pl-2">
-                                    <div class="form-group">
-                                        <div class="qty-buttons">
-                                            <input type="button" value="+" class="qtyplus" name="child">
-                                            <input type="text" name="child" id="child" value="" class="qty form-control required" placeholder="Child">
-                                            <input type="button" value="-" class="qtyminus" name="child">
-                                        </div>
-                                    </div>
-                                </div>
+                                {{--<div class="col-6 pl-2">--}}
+                                    {{--<div class="form-group">--}}
+                                        {{--<div class="qty-buttons">--}}
+                                            {{--<input type="button" value="+" class="qtyplus" name="child">--}}
+                                            {{--<input type="text" name="child" id="child" value="" class="qty form-control required" placeholder="Child">--}}
+                                            {{--<input type="button" value="-" class="qtyminus" name="child">--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control notes" placeholder="Special notes or alergies"></textarea>
+                                <input name="venue" type="text" class="form-control required" placeholder="Venue e.g. Landmark Event centre, VI" />
                             </div>
                         </div>
                         <!-- /step-->
@@ -151,29 +144,19 @@
                                     <a></a>
                                 </label>
                             </div>
-                            <div class="form-group options clearfix">
-                                <i class="icon-restaurant-garden"></i><em>Garden table</em>
-                                <label class="switch-light switch-ios float-right">
-                                    <input type="checkbox" value="Garden table" name="options[]">
-                                    <span><span>No</span><span>Yes</span></span>
-                                    <a></a>
-                                </label>
+                            <div class="form-group">
+                                <div class="styled-select clearfix">
+                                    <select class="required ddslick" name="event">
+                                        <option disabled value="" data-imagesrc="">Event Type/Occasion</option>
+                                        <option value="commercial shot">Commercial Shot</option>
+                                        <option value="wedding">Wedding</option>
+                                        <option value="fashion">Fashion</option>
+                                        <option value="product shot">Product Shot</option>
+                                    </select>
+                                </div>
                             </div>
-                            <div class="form-group options clearfix">
-                                <i class="icon-restaurant-gluten_free"></i><em>Gluten free menu</em>
-                                <label class="switch-light switch-ios float-right">
-                                    <input type="checkbox" value="Gluten free" name="options[]">
-                                    <span><span>No</span><span>Yes</span></span>
-                                    <a></a>
-                                </label>
-                            </div>
-                            <div class="form-group options clearfix">
-                                <i class="icon-restaurant-parking"></i><em>Secure Parking</em>
-                                <label class="switch-light switch-ios float-right">
-                                    <input type="checkbox" value="Secure Parking" name="options[]">
-                                    <span><span>No</span><span>Yes</span></span>
-                                    <a></a>
-                                </label>
+                            <div class="form-group">
+                                <textarea name="notes" class="form-control notes" placeholder="Special Notes"></textarea>
                             </div>
                         </div>
                         <!-- /step-->
@@ -186,14 +169,14 @@
                             </div>
                             <div class="form-group">
                                 <input type="text" name="last_name" class="form-control required" placeholder="Last Name">
-                                <i class="icon-user"></i>
+                                <i class="icon-people"></i>
                             </div>
                             <div class="form-group">
                                 <input type="email" name="email" class="form-control required" placeholder="Email">
                                 <i class="icon-envelope"></i>
                             </div>
                             <div class="form-group">
-                                <input type="text" name="telephone" class="form-control" placeholder="Telephone">
+                                <input type="number" name="telephone" class="form-control" placeholder="Telephone">
                                 <i class="icon-phone"></i>
                             </div>
                             <div class="form-group terms">
@@ -248,6 +231,13 @@
 
 <!-- Wizard script -->
 <script src="{{ URL::asset('assets/js/book/booking_restaurant_func.js') }}"></script>
+
+<script src="{{ URL::asset('assets/js/jquery.timepicker.min.js') }}"></script>
+<script>
+    $(function() {
+        $('#pickTime').timepicker({ 'scrollDefault': 'now' });
+    });
+</script>
 
 </body>
 </html>
