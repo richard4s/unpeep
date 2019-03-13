@@ -47,7 +47,7 @@
                                     <td align="center" valign="middle" style="padding-top: 40px; padding-bottom: 40px;" class="emailLogo">
                                         <!-- Logo and Link // -->
                                         <a href="#" target="_blank" style="text-decoration:none;">
-                                            <img src="{{ base_path() . '/assets/images/logo.png' }}" alt="" width="150" border="0" style="width:100%; max-width:150px;height:auto; display:block;">
+                                            <img src="https://imgur.com/oqEmUD2" alt="" width="150" border="0" style="width:100%; max-width:150px;height:auto; display:block;">
                                         </a>
                                     </td>
                                 </tr>
@@ -76,7 +76,7 @@
                                     <td align="center" valign="top" style="padding-bottom: 20px;" class="imgHero">
                                         <!-- Hero Image // -->
                                         <a href="#" target="_blank" style="text-decoration:none;">
-                                            <img src="{{ base_path() . '/assets/images/user-subscribe.png' }}" width="600" alt="" border="0" style="width:100%; max-width:600px; height:auto; display:block;">
+                                            <img src="https://imgur.com/RuvQGSS" width="600" alt="" border="0" style="width:100%; max-width:600px; height:auto; display:block;">
                                         </a>
                                     </td>
                                 </tr>
@@ -107,7 +107,6 @@
                                                 <td align="center" valign="top" style="padding-bottom:20px;" class="description">
                                                     <!-- Description Text// -->
                                                     <p class="text" style="color:#666666; font-family:'Open Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight:400; font-style:normal; letter-spacing:normal; line-height:22px; text-transform:none; text-align:center; padding:0; margin:0">
-                                                        Welcome to Unpeep.
                                                         We're glad to have you be part of us. We would be sending emails about updates to unpeep
                                                         as we currently are in our beta-phase (No spam promise).
                                                     </p>
@@ -145,7 +144,7 @@
                                 <tr><td align="left" valign="middle" style="padding-bottom:40px" class="emailRegards">
                                         <!-- Image and Link // -->
                                         <a href="#" target="_blank" style="text-decoration:none;">
-                                            <img mc:edit="signature" src="{{ base_path() . '/assets/images/footer.png' }}" alt="" width="150" border="0" style="width:100%;
+                                            <img mc:edit="signature" src="https://imgur.com/teYILZ8" alt="" width="150" border="0" style="width:100%;
 max-width:150px; height:auto; display:block;">
                                         </a>
                                     </td>
