@@ -668,8 +668,10 @@
                                 </li>
                                 <li id="menu-item-3867" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3867"><a href="{{ route('stock') }}">UNPEEP STOCK</a></li>
                                 <li id="menu-item-3867" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3867"><a href="{{ route('book-photographer') }}">BOOK NOW</a></li>
+                                <li id="menu-item-3875" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-3875"><a href="https://blog.unpeep.com">BLOG</a></li>
+                                <li id="menu-item-3875" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-3875"><a href="https://events.unpeep.com">EVENTS</a></li>
                                 <li id="menu-item-3868" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3868"><a href="{{ route('contact') }}">CONTACT</a></li>
-                                <li id="menu-item-3875" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-3875"><a href="#">BLOG</a></li>
+
                             </ul>
                         </div>
                     </div>
