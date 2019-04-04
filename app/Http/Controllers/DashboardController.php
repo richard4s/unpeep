@@ -168,10 +168,18 @@ class DashboardController extends Controller
 
             $postContent = $dom->saveHTML();
 
-            Posts::where('id', '=', $id)->update([
+            $val = Posts::where('id', '=', $request['hiddenID'])->update([
                'title' => $title,
                 'postContent' => $postContent
             ]);
+
+            if($val) {
+                echo 'success';
+            } else {
+                echo 'failed';
+            }
+
+            die();
 
             return redirect()->route('blog-posts');
         }

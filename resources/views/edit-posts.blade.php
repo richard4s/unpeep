@@ -33,6 +33,8 @@
                                         <textarea class="form-control summernote" name="postContent">{{ $editPosts->postContent }}</textarea>
                                     </div>
 
+                                    <input type="hidden" name="hiddenID" value="{{ $editPosts->id }}">
+
                                     <div class="form-group">
                                         <div class="btn-toolbar form-group mb-0">
                                             <div class="">
