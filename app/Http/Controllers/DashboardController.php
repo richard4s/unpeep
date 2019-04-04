@@ -173,13 +173,13 @@ class DashboardController extends Controller
                 'postContent' => $postContent
             ]);
 
-            if($val) {
-                echo 'success';
-            } else {
-                echo 'failed';
-            }
-
-            die();
+//            if($val) {
+//                echo 'success';
+//            } else {
+//                echo 'failed';
+//            }
+//
+//            die();
 
             return redirect()->route('blog-posts');
         }
