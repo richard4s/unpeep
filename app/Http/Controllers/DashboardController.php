@@ -75,7 +75,7 @@ class DashboardController extends Controller
     }
 
     public function blogPosts(Request $request) {
-        $allPosts = Posts::get();
+        $allPosts = Posts::orderBy('id', 'DESC')->get();
         return view('blog-posts', compact('allPosts'));
     }
 
@@ -86,6 +86,14 @@ class DashboardController extends Controller
                 'postContent' => 'required',
                 'title' => 'required',
             ]);
+
+//            $image = $request->file('file');
+////            $imageName = $image->getClientOriginalName();
+//            $image->move(public_path('images'), time().'unpeep');
+
+//            $imageUpload = new ImageUpload();
+//            $imageUpload->filename = $imageName;
+//            $imageUpload->save();
 
             $title = $request->input('title');
 
@@ -169,6 +177,19 @@ class DashboardController extends Controller
         }
 
         return view('edit-posts', compact('editPosts'));
+    }
+
+    public function deletePosts(Request $request) {
+        if($request->all()) {
+            Posts::find($request['id'])->delete();
+
+            $response = array(
+                'status' => 'success',
+                'msg' => 'Successful post',
+            );
+
+            return response()->json($response);
+        }
     }
 
     /**

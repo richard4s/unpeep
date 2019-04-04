@@ -34,7 +34,7 @@
                                                 <div class="text-box">
                                                     <h1 class="iq-font-white">{{ $blogPosts->title }}</h1>
                                                     <p class="iq-mt-10">{{ mb_substr(strip_tags($blogPosts->postContent), 0, 100) }}</p>
-                                                    <a class="button white" href="/posts/{{ $blogPosts->id }}"><i class="fa fa-angle-double-left iq-mr-10" aria-hidden="true"></i>Read More</a>
+                                                    <a class="button white" href="/posts/{{ $blogPosts->id }}/{{ str_replace(' ', '-', strtolower($blogPosts->title))  }}"><i class="fa fa-angle-double-left iq-mr-10" aria-hidden="true"></i>Read More</a>
                                                 </div>
                                             </div>
                                         </div>

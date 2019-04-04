@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="{{ URL::asset('assets') }}/plugins/chartist/css/chartist.min.css">
     <link href="{{ URL::asset('assets') }}/plugins/datatables/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css">
     <link href="{{ URL::asset('assets') }}/plugins/datatables/buttons.bootstrap4.min.css" rel="stylesheet" type="text/css">
+    <link href="{{ URL::asset('assets') }}/plugins/dropzone/dist/dropzone.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="{{ URL::asset('assets') }}/plugins/summernote/summernote-bs4.css">
     <!-- Responsive datatable examples -->
     <link href="{{ URL::asset('assets') }}/plugins/datatables/responsive.bootstrap4.min.css" rel="stylesheet" type="text/css">

@@ -27,4 +27,6 @@ Route::post('/new-post', 'DashboardController@createPosts')->name('new-post');
 Route::get('/edit-posts/{id}', 'DashboardController@editPosts')->name('edit-posts');
 Route::post('/edit-posts', 'DashboardController@editPosts')->name('edit-posts');
 
-Route::get('/posts/{id}', 'PostsController@posts')->name('posts');
+Route::post('/dashboard/deletePosts', 'DashboardController@deletePosts')->name('delete-posts');
+
+Route::get('/posts/{id}/{postTitle}', 'PostsController@posts')->name('posts');

@@ -48,11 +48,9 @@
                                                     <i class="fa fa-pen"></i>
                                                 </button>
                                             </a>
-                                            <a href="">
-                                                <button type="button" class="btn btn-danger waves-effect waves-light m-r-5">
-                                                    <i class="fa fa-trash"></i>
-                                                </button>
-                                            </a>
+                                            <button type="button" onclick="deletePosts({{ $posts->id }})" class="btn btn-danger waves-effect waves-light m-r-5">
+                                                <i class="fa fa-trash"></i>
+                                            </button>
                                         </td>
                                     </tr>
                                 @endforeach

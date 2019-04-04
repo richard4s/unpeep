@@ -24,11 +24,16 @@
                     <div class=" mb-3">
                         <div class="card">
                             <div class="card-body">
+                                {{--<form method="POST" class="dropzone" action="/new-post" enctype="multipart/form-data">--}}
                                 <form method="POST" action="/new-post" enctype="multipart/form-data">
                                     @csrf
                                     <div class="form-group">
                                         <input name="title" type="text" class="form-control" placeholder="Post Title">
                                     </div>
+                                    {{--<div class="form-group">--}}
+                                        {{--<div class="fallback">--}}
+                                            {{--<input name="file" type="file" multiple="multiple"></div>--}}
+                                    {{--</div>--}}
                                     <div class="form-group">
                                         <textarea class="form-control summernote" name="postContent">Blog Post Content</textarea>
                                     </div>
