@@ -17,7 +17,7 @@ class CreatePostsTable extends Migration
             $table->increments('id');
             $table->string('title');
             $table->longText('postContent');
-            $table->string('featuredImage');
+            $table->string('featuredImage')->null();
             $table->timestamps();
         });
     }
