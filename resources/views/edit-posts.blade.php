@@ -24,7 +24,7 @@
                     <div class=" mb-3">
                         <div class="card">
                             <div class="card-body">
-                                <form method="POST" action="/edit-post" enctype="multipart/form-data">
+                                <form method="POST" action="/edit-posts" enctype="multipart/form-data">
                                     @csrf
                                     <div class="form-group">
                                         <input name="title" type="text" class="form-control" value="{{ $editPosts->title }}">
