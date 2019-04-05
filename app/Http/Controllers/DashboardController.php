@@ -101,6 +101,7 @@ class DashboardController extends Controller
 
             $dom = new \DomDocument();
 
+            libxml_use_internal_errors(true);
             $dom->loadHtml($postContent, LIBXML_HTML_NOIMPLIED | LIBXML_HTML_NODEFDTD);
             $images = $dom->getElementsByTagName('img');
 
