@@ -5,7 +5,7 @@
             <div class="row iq-mb-20">
                 <div class="col-lg-3 col-sm-6 iq-mtb-30">
                     <div class="logo">
-                        <img class="img-fluid" src="{{ URL::asset('assets') }}/images/unpeep-plain-logo.png" alt="Unpeep Logo">
+                        <img class="img-fluid" src="{{ URL::asset('assets') }}/images/unpeep-w.png" alt="Unpeep Logo">
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 iq-mtb-30 iq-contact">
