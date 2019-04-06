@@ -108,8 +108,8 @@ class DashboardController extends Controller
             foreach($images as $k => $img){
 
                 $data = $img->getAttribute('src');
-                list($type, $data) = explode(';', $data);
-                list(, $data)      = explode(',', $data);
+                @list($type, $data) = @explode(';', $data);
+                @list(, $data)      = @explode(',', $data);
                 $data = base64_decode($data);
                 $image_name= "/uploads/" . time().$k.'.png';
                 $path = public_path() . $image_name;
@@ -147,16 +147,18 @@ class DashboardController extends Controller
 
             $postContent = $request->input('postContent');
 
+
             $dom = new \DomDocument();
 
+            libxml_use_internal_errors(true);
             $dom->loadHtml($postContent, LIBXML_HTML_NOIMPLIED | LIBXML_HTML_NODEFDTD);
             $images = $dom->getElementsByTagName('img');
 
             foreach($images as $k => $img){
 
                 $data = $img->getAttribute('src');
-                list($type, $data) = explode(';', $data);
-                list(, $data)      = explode(',', $data);
+                @list($type, $data) = @explode(';', $data);
+                @list(, $data)      = @explode(',', $data);
                 $data = base64_decode($data);
                 $image_name= "/uploads/" . time().$k.'.png';
                 $path = public_path() . $image_name;
