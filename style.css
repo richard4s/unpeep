@@ -5,18 +5,11 @@
     display: flex;
 }
 
-/*html {*/
-    /*margin: 0;*/
-    /*padding: 0;*/
-/*}*/
-
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     font-weight: normal;
     color: hsl(0, 0%, 90%);
-    margin: 0;
-    padding: 0;
 }
 
 @font-face {
@@ -36,6 +29,10 @@ body {
     -ms-flex: 0 0 20%;
     flex: 0 0 20%;
     max-width: 20%;
+}
+
+.ulogo{
+  height: 70px;
 }
 
 /*------------------------------------------------------------
@@ -194,7 +191,7 @@ body {
 
 @media screen and (min-width: 992px) {
     .header-bar .site-branding {
-        /*margin-left: 35px;*/
+        margin-left: 35px;
     }
 
     .site-navigation {
@@ -832,7 +829,7 @@ body {
 .site-footer {
     position: relative;
     padding: 40px 0 30px;
-    background: url(images/footer-cover.JPG) no-repeat;
+    background: url(images/footer-cover.jpg) no-repeat;
     background-size: cover;
 }
 
@@ -1964,11 +1961,3 @@ body {
 .icon-box-3 .entry-header::before {
     content: "03.";
 }
-
-
-
-
-
-
-
-
