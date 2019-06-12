@@ -20,9 +20,8 @@
     <link rel="apple-touch-icon" href="{{ URL::asset('assets/images/unpeep_logo.png') }}" />
 
     <meta name="author" content="The Unpeep Team" />
-    <meta name="description" content="Job board platform for photographers, Share creative designs and Express yourself!" />
-    <meta name="keywords" content="Photographer, photography, blockchain, photography startup, events, event organizers, lagos, nigeria, events organizers in lagos, photographers in lagos,
-                                    stock, photos, gallery, studio, job platform, jobs, gigs, blockchain startup, ethereum blockchain" />
+    <meta name="description" content="Community that connects quality focused creators." />
+    <meta name="keywords" content="Photographer, photography, blockchain, photography startup, events, event organizers, lagos, nigeria, events organizers in lagos, photographers in lagos, stock, photos, gallery, studio, job platform, jobs, gigs, blockchain startup, ethereum blockchain" />
     <meta http-equiv = "Content-Type" content = "text/html; charset = UTF-8" />
 
 

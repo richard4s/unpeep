@@ -29,3 +29,7 @@ Route::post('/planner', 'PeeperController@planner');
 Route::get('/photographer', 'PeeperController@book')->name('photographer');
 Route::post('/photographer', 'PeeperController@store');
 
+Route::get('/uploads', 'ExploreController@imageUploads');
+
+Route::get('explore', 'ExploreController@index');
+

@@ -45,18 +45,18 @@ $(function(){
         // },
         onFinished: function (event, currentIndex)
         {
-            // var form = $(this);
-            //
-            // var result = $('ul[aria-label=Pagination]').children().find('a');
-            // $(result).each(function () {
-            //     if ($(this).text() == 'Finish') {
-            //         // $(this).attr('disabled', 'disabled');
-            //         // $(this).css('background', 'green');
-            //         $(this).submit();
-            //         alert('hi');
-            //         $("#wizard").submit();
-            //     }
-            // });
+            var form = $(this);
+
+            var result = $('ul[aria-label=Pagination]').children().find('a');
+            $(result).each(function () {
+                if ($(this).text() == 'Finish') {
+                    // $(this).attr('disabled', 'disabled');
+                    // $(this).css('background', 'green');
+                    $(this).submit();
+                    alert('hi');
+                    $("#wizard").submit();
+                }
+            });
 
             $("#actualWizard").submit();
             // alert('hi');
